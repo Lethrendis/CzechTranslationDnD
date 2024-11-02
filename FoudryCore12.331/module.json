@@ -1,0 +1,26 @@
+{
+    "name": "lang-dnd5e-cz",
+    "title": "Translation: Czech [D&D5E]",
+    "description": "Czech language support for Foundry VTT D&D5e module",
+    "version": "0.9.0",
+    "minimumCoreVersion" : "0.7.6",  
+    "compatibleCoreVersion": "0.9.0",
+    "author": "Mrkew#3758, team skoro-Hrdinové, Yancho, Exi, kainashiCZ, DeznekCZ",
+        
+    "scripts": [],
+    "styles": [],
+    "packs": [],
+    
+    "languages": [
+      {
+        "lang": "cs",
+        "name": "Čeština",
+        "path": "cs.json"
+      }
+    ],
+    
+    "url": "https://gitlab.com/ptoseklukas/foundryvtt-dnd5e-lang-cs-cz/",
+    "manifest": "https://gitlab.com/ptoseklukas/foundryvtt-dnd5e-lang-cs-cz/raw/master/cs-CZ/module.json",
+    "download": "https://gitlab.com/ptoseklukas/foundryvtt-dnd5e-lang-cs-cz/-/jobs/artifacts/master/raw/cs-CZ.zip?job=build"
+  }
+  
