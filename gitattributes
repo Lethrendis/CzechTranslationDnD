@@ -1,9 +1,0 @@
-# Nastavení jednotného řádkování na LF
-* text=auto eol=lf
-
-# Specifické typy souborů s LF řádkováním
-*.json text eol=lf
-*.md text eol=lf
-
-# Ignorování změn v dočasných souborech
-*.tmp -diff
