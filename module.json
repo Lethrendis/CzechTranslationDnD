@@ -1,0 +1,27 @@
+{
+  "id": "czechcore12331",
+  "title": "CzechCore12.331",
+  "version": "1.0.0",
+  "description": "Czech translation of Foundry VTT version 12.331",
+  "authors": [
+    {
+      "name": "Lethrendis",
+      "email": "michmildub@seznam.cz",
+      "discord": "Lethrendis",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "languages": [
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Lethrendis/FoundryCzechCore12.331/main/module.json",
+  "url": "https://github.com/Lethrendis/FoundryCzechCore12.331"
+}
