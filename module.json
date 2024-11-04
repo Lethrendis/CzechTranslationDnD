@@ -1,10 +1,12 @@
 {
-  "id": "CzechCore12331",
+  "id": ""CzechCore12331",
   "name": "CzechCore12.331",
-  "title": "Czech Localization",
-  "description": "Překlad FoundryVTT 12.331 do češtiny.",
+  "description": "Czech localization for FoundryVTT.",
   "version": "1.0.0",
-  "author": "Lethrendis",
+  "authors": [
+    {
+      "name": "Lethrendis",      
+    }
   "languages": [
     {
       "lang": "cs",
@@ -12,7 +14,14 @@
       "path": "lang/cs.json"
     }
   ],
+  ],
+  "esmodule": true,
+  "scripts": [],
+  "styles": [],
+  "packs": [],
+  "system": "foundry",
   "minimumCoreVersion": "12",
   "compatibleCoreVersion": "12"
-   "url": "https://github.com/Lethrendis/FoundryCzechCore12.331",
- }
+  "url": "https://github.com/Lethrendis/FoundryCzechCore12.331",
+  "license": "MIT"
+}
