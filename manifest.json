@@ -1,0 +1,16 @@
+{
+  "name": "CzechCore12.331",
+  "title": "Czech Localization",
+  "description": "Překlad FoundryVTT 12.331 do češtiny.",
+  "version": "1.0.0",
+  "author": "Lethrendis",
+  "languages": [
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    }
+  ],
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": "12"
+}
