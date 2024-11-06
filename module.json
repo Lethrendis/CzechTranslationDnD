@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12.0.0",
-    "verified": "12.0.0"
+    "verified": "12.331"
   },
   "description": "Český překlad DnD5e 4.1.x",
   "authors": [
