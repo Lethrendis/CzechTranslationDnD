@@ -22,5 +22,5 @@
     }
   ],
   "url": "https://github.com/Lethrendis/CzechTranslationDnD",
-  "manifest": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationDnD/main/module.json"
+  "manifestURL": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationDnD/main/module.json"
 }
