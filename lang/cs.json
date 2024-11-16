@@ -122,7 +122,7 @@
 "DND5E.ActionRWAK": "Útok zbraní na dálku",
 "DND5E.ActionSave": "Záchranný hod",
 "DND5E.ActionSumm": "Vyvolání",
-"DND5E.ActionUtil": "Pomocné kouzlo",
+"DND5E.ActionUtil": "Pomocný prostředek",
 "DND5E.ActionWarningNoItem": "Požadovaná položka {item} již u aktéra {name} neexistuje.",
 "DND5E.ActionWarningNoToken": "Aby mohla být použita tuto možnost, musíš ovládat jeden nebo více tokenů.",
 "DND5E.ACTIVATION": {
@@ -312,7 +312,7 @@
 "DND5E.AdvancementItemGrantTitle": "Zaručené položky",
 "DND5E.AdvancementItemGrantHint": "Zaručuje postavě po dosažení určité úrovně položky (jako vybavení, schopnosti, kouzla).",
 "DND5E.AdvancementItemGrantDropHint": "Polož položky sem, aby se přidaly do seznamu zaručeného tímto postupem.",
-"DND5E.AdvancementItemGrantContainerWarning": "Obsah kontejneru nebude přidán s kontejnery.",
+"DND5E.AdvancementItemGrantContainerWarning": "Obsah kontejneru nebude přidán spolu s kontejnerem.",
 "DND5E.AdvancementItemGrantDuplicateWarning": "Tato položka již v rámci tohoto postupu existuje.",
 "DND5E.AdvancementItemGrantRecursiveWarning": "Nemůžeš zaručit položku ve svém vlastním postupu.",
 "DND5E.AdvancementItemGrantOptional": "Volitelný",
@@ -456,7 +456,7 @@
       "label": "Detaily útoku",
       "ability": {
         "label": "Vlastnost použitá při útoku",
-        "hint": "Vlastnost použitá při útoku a určování poškození. Vzorec se používá pomocí @mod."
+        "hint": "Vlastnost použitá při útoku a určování zranění. Vzorec se používá pomocí @mod."
       },
       "bonus": {
         "label": "Bonus při zásahu",
@@ -485,20 +485,20 @@
       }
     },
     "damage": {
-      "label": "Poškození způsobené útokem",
+      "label": "Zranění způsobené útokem",
       "critical": {
         "bonus": {
-          "label": "Bonus kritického poškození",
-          "hint": "Přidané poškození při kritickém zásahu. Přidává se k základnímu poškození, nebo k první části poškození."
+          "label": "Bonus kritického zranění",
+          "hint": "Přidané zranění při kritickém zásahu. Přidává se k základnímu zranění, nebo k první části zranění."
         }
       },
       "includeBase": {
-        "label": "Zahrnout základní poškození",
-        "hint": "Zahrne základní poškozeníí položky k jakýmkoli dalším poškozením."
+        "label": "Zahrnout základní zranění",
+        "hint": "Zahrne základní zranění položky k jakýmkoli dalším zraněním."
       },
       "parts": {
-        "label": "Části poškození",
-        "hint": "Jednotlivé části poškození zahrnuté v hodu."
+        "label": "Části zranění",
+        "hint": "Jednotlivé části zranění zahrnuté v hodu."
       }
     }
   },
@@ -620,15 +620,15 @@
 "DND5E.BonusAction": "Bonusová akce",
 "DND5E.BonusActionAbbr": "B.A.",
 "DND5E.BonusAttack": "Bonus k útoku",
-"DND5E.BonusDamage": "Bonus k poškození",
+"DND5E.BonusDamage": "Bonus ke zranění",
 "DND5E.BonusMSAttack": "Bonus k útoku kouzlem nablízko",
-"DND5E.BonusMSDamage": "Bonus k poškození kouzlem nablízko",
+"DND5E.BonusMSDamage": "Bonus ke zranění kouzlem nablízko",
 "DND5E.BonusMWAttack": "Bonus k útoku zbraní nablízko",
-"DND5E.BonusMWDamage": "Bonus k poškození zbraní nablízko",
+"DND5E.BonusMWDamage": "Bonus ke zranění zbraní nablízko",
 "DND5E.BonusRSAttack": "Bonus k útoku kouzlem na dálku",
-"DND5E.BonusRSDamage": "Bonus k poškození kouzlem na dálku",
+"DND5E.BonusRSDamage": "Bonus ke zranění kouzlem na dálku",
 "DND5E.BonusRWAttack": "Bonus k útoku zbraní na dálku",
-"DND5E.BonusRWDamage": "Bonus k poškození zbraní na dálku",
+"DND5E.BonusRWDamage": "Bonus ke zranění zbraní na dálku",
 "DND5E.BonusSaveForm": "Aktualizovat bonusy",
 "DND5E.BonusSpell": "Globální bonusy kouzel",
 "DND5E.BonusSpellDC": "Globální bonusy SO kouzel",
@@ -684,7 +684,7 @@
   }
 },
 "DND5E.Casting": "Sesílání",
-"DND5E.Conditions": "Podmínky",
+"DND5E.Conditions": "Stavy",
 "DND5E.Controls": {
   "Hint": "Povolit různé nápovědy v uživatelském rozhraní pro určité ovládací prvky myši a klávesnice.",
   "LeftClick": "Levé tlačítko myši",
@@ -698,11 +698,11 @@
 "DND5E.ChallengeRating": "Nebezpečnost",
 "DND5E.Charged": "Nabito",
 "DND5E.Charges": "Nabití",
-"DND5E.ChatContextDamage": "Aplikovat poškození",
+"DND5E.ChatContextDamage": "Aplikovat zranění",
 "DND5E.ChatContextHealing": "Aplikovat léčení",
 "DND5E.ChatContextTempHP": "Aplikovat dočasné BV",
-"DND5E.ChatContextDoubleDamage": "Použít dvojité poškození",
-"DND5E.ChatContextHalfDamage": "Použít poloviční poškození",
+"DND5E.ChatContextDoubleDamage": "Použít dvojité zranění",
+"DND5E.ChatContextHalfDamage": "Použít poloviční zranění",
 "DND5E.ChatContextSelectHit": "Vybrat zasažené cíle",
 "DND5E.ChatContextSelectMiss": "Vybrat minuté cíle",
 "DND5E.ChatFlavor": "Povídání v chatu",
@@ -763,10 +763,10 @@
 },
 "DND5E.ClassAdd": "Přidat povolání",
 "DND5E.ClassIdentifier": "Identifikátor povolání",
-"DND5E.ClassIdentifierHint": "Data ttohoto povolání budou přístupná pomocí <strong>@classes.{identifier}</strong> ve vzorcích hodů.",
+"DND5E.ClassIdentifierHint": "Data tohoto povolání budou přístupná pomocí <strong>@classes.{identifier}</strong> ve vzorcích hodů.",
 "DND5E.ClassLevels": "Úrovně povolání",
 "DND5E.ClassMakeOriginal": "Původní povolání",
-"DND5E.ClassMakeOriginalHint": "První povolání, které hráč zvolil, se používá k určení určitých rysů povolání v rámci multipovolání.",
+"DND5E.ClassMakeOriginalHint": "První povolání, které hráč u postavy zvolil. Používá se k určení určitých rysů povolání v rámci multipovolání.",
 "DND5E.ClassName": "Název povolání",
 "DND5E.ClassOriginal": "Původní povolání",
 "DND5E.ClassSaves": "Záchranné Hody",
@@ -911,10 +911,10 @@
 "DND5E.CONSUMABLE": {
   "FIELDS": {
     "damage": {
-      "label": "Poškození municí",
+      "label": "Zranění municí",
       "replace": {
-        "label": "Nahradit poškození zbraně",
-        "hint": "Nahradí základní poškození zbraně tímto poškozením, místo aby ho jen zesílilo."
+        "label": "Nahradit zranění zbraně",
+        "hint": "Nahradí základní zranění zbraně tímto zraněním, místo aby ho jen zesílilo."
       }
     },
     "magicalBonus": {
@@ -1168,11 +1168,11 @@
 "DND5E.CurrencyAbbrGP": "Zl",
 "DND5E.CurrencyAbbrPP": "Pl",
 "DND5E.CurrencyAbbrSP": "St",
-"DND5E.CurrencyCP": "Měď",
-"DND5E.CurrencyEP": "Elektrum",
-"DND5E.CurrencyGP": "Zlato",
-"DND5E.CurrencyPP": "Platina",
-"DND5E.CurrencySP": "Stříbro",
+"DND5E.CurrencyCP": "Měďáky",
+"DND5E.CurrencyEP": "Elektróny",
+"DND5E.CurrencyGP": "Zlaťáky",
+"DND5E.CurrencyPP": "Platiňáky",
+"DND5E.CurrencySP": "Stříbrňáky",
 "DND5E.CurrencyManager": {
   "Title": "Správa mincí",
   "Convert": {
@@ -1192,37 +1192,37 @@
 },
 "DND5E.Current": "Aktuální",
 "DND5E.DAMAGE": {
-  "Title": "Poškození",
+  "Title": "Zranění",
   "FIELDS": {
     "damage": {
-      "label": "Poškození",
+      "label": "Zranění",
       "critical": {
         "allow": {
           "label": "Povolit kritické",
-          "hint": "Může bytost hodit kritické poškození?"
+          "hint": "Může bytost hodit kritické zranění?"
         },
         "bonus": {
-          "label": "Extra kritické poškození",
-          "hint": "Extra poškození aplikované na první část poškození při kritickém hodu."
+          "label": "Extra kritické zranění",
+          "hint": "Extra zranění aplikované na první část zranění při kritickém hodu."
         }
       },
       "parts": {
-        "label": "Části poškození",
-        "hint": "Jednotlivé části poškození, které mají být zahrnuty do hodu.",
+        "label": "Části zranění",
+        "hint": "Jednotlivé části zranění, které mají být zahrnuty do hodu.",
         "FIELDS": {
           "bonus": {
-            "label": "Bonus poškození",
+            "label": "Bonus ke zranění",
             "hint": "Bonus přidaný k hodu na určení zásahu."
           },
           "custom": {
-            "label": "Vlastní vzorec poškození",
+            "label": "Vlastní vzorec zranění",
             "enabled": {
               "label": "Povolit vlastní vzorec",
               "hint": "Použije vlastní vzorec namísto výchozího."
             },
             "formula": {
-              "label": "Vzorec poškození",
-              "hint": "Vlastní vzorec poškození."
+              "label": "Vzorec zranění",
+              "hint": "Vlastní vzorec zranění."
             }
           },
           "denomination": {
@@ -1234,7 +1234,7 @@
             "hint": "Počet kostek, kterými se má házet."
           },
           "scaling": {
-            "label": "Škálování poškození",
+            "label": "Škálování zranění",
             "abbr": "Škálování",
             "mode": {
               "label": "Režim škálování",
@@ -1244,7 +1244,7 @@
             "number": {
               "label": "Škálování kostek",
               "abbr": "Kostky",
-              "hint": "Počet kostek, které se zvýší na každém stupni škálování. Bude použit na první kostku nalezenou ve vzorci poškození, pokud jich je více než jedna."
+              "hint": "Počet kostek, které se zvýší na každém stupni škálování. Bude použit na první kostku nalezenou ve vzorci zranění, pokud jich je více než jedna."
             },
             "formula": {
               "label": "Vzorec škálování",
@@ -1252,8 +1252,8 @@
             }
           },
           "types": {
-            "label": "Typy poškození",
-            "hint": "Typ způsobeného poškození, nebo více poškozeních, ze kterých si uživatel může vybrat."
+            "label": "Typy zranění",
+            "hint": "Typ způsobeného zranění, nebo více zraněních, ze kterých si uživatel může vybrat."
           }
         }
       }
@@ -1261,8 +1261,8 @@
   },
   "Part": {
     "Action": {
-      "Create": "Vytvořit část poškození",
-      "Delete": "Vytvořit část poškození"
+      "Create": "Vytvořit část zranění",
+      "Delete": "Ostranit část zranění"
     }
   },
   "Scaling": {
@@ -1271,13 +1271,13 @@
     "Whole": "Každý stupeň"
   }
 },
-"DND5E.DamImm": "Imunity vůči poškození",
-"DND5E.DamMod": "Úprava poškození",
-"DND5E.DamRes": "Odolání vůči poškození",
-"DND5E.DamVuln": "Zranitelnosti vůči poškození",
-"DND5E.Damage": "Poškození",
+"DND5E.DamImm": "Imunity vůči zranění",
+"DND5E.DamMod": "Úprava zranění",
+"DND5E.DamRes": "Odolání vůči zranění",
+"DND5E.DamVuln": "Zranitelnosti vůči zranění",
+"DND5E.Damage": "Zranění",
 "DND5E.DamageAcid": "Kyselinové",
-"DND5E.DamageAll": "Veškeré poškození",
+"DND5E.DamageAll": "Veškeré zranění",
 "DND5E.DamageApplication": {
   "Change": {
     "Modification": "{type} úprava",
@@ -1294,26 +1294,26 @@
 "DND5E.DamageForce": "Silové",
 "DND5E.DamageLightning": "Bleskové",
 "DND5E.DamageModification": {
-  "Label": "Úprava poškození",
-  "Hint": "Vzorce pro množství poškození, které budou přičteny k již zadanému aplikovanému na tohoto aktéra. Záporné hodnoty sníží způsobené poškození.",
-  "BypassHint": "Tyto parametry zbraní obejdou úpravu poškození u fyzického poškození."
+  "Label": "Úprava zranění",
+  "Hint": "Vzorce pro množství zranění, které budou přičteny k již zadanému aplikovanému na tohoto aktéra. Záporné hodnoty způsobené zranění sníží.",
+  "BypassHint": "Tyto parametry zbraní obejdou úpravu zranění u fyzického zranění."
 },
 "DND5E.DamageNecrotic": "Nekrotické",
 "DND5E.DamagePiercing": "Bodné",
 "DND5E.DamagePhysical": "Nemagické fyzické",
 "DND5E.DamagePhysicalBypass": "Obejití fyzického",
-"DND5E.DamagePhysicalBypassHint": "Tyto parametry zbraní obejdou odolání vůči fyzickému poškození.",
+"DND5E.DamagePhysicalBypassHint": "Tyto parametry zbraní obejdou odolání vůči fyzickému zranění.",
 "DND5E.DamagePhysicalBypasses": "Útoky {damageTypes}, které nejsou {bypassTypes}",
 "DND5E.DamagePhysicalBypassesShort": "Obejití typem {type} zdroje",
 "DND5E.DamagePoison": "Jedové",
 "DND5E.DamagePsychic": "Psychické",
 "DND5E.DamageRadiant": "Zářivé",
-"DND5E.DamageRoll": "Hod na poškození",
+"DND5E.DamageRoll": "Hod na zranění",
 "DND5E.DamageSlashing": "Sečné",
-"DND5E.DamageThreshold": "Práh poškození",
+"DND5E.DamageThreshold": "Práh zranění",
 "DND5E.DamageThunder": "Hromové",
-"DND5E.DamageType": "Typ poškození",
-"DND5E.DamageTypes": "Typy poškození",
+"DND5E.DamageType": "Typ zranění",
+"DND5E.DamageTypes": "Typy zranění",
 "DND5E.Dawn": "Svítání",
 "DND5E.Day": "Den",
 "DND5E.DeathSave": "Záchrany před smrtí",
@@ -1869,7 +1869,7 @@
     "EpicBoon": "Epické požehnání",
     "FightingStyle": "Bojový styl",
     "General": "Obecná odbornost",
-    "Origin": "Původní odbornost"
+    "Origin": "Dané původem"
   },
   "Monster": "Rys bytosti",
   "Species": "Rys druhu",
@@ -1970,7 +1970,7 @@
 "DND5E.FlagsPowerfulBuild": "Silně stavěný",
 "DND5E.FlagsPowerfulBuildHint": "Zajišťuje zvýšenou nosnost.",
 "DND5E.FlagsElvenAccuracy": "Elfí přesnost",
-"DND5E.FlagsElvenAccuracyHint": "Když máš výhodu, můžeš hodit jednou d20 navíc na Obratnost, Inteligenci, Moudrost, nebo Charisma.",
+"DND5E.FlagsElvenAccuracyHint": "Když máš Výhodu, můžeš na Obratnost, Inteligenci, Moudrost, nebo Charisma hodit jednou d20 navíc.",
 "DND5E.FlagsHalflingLucky": "Ohromné štěstí",
 "DND5E.FlagsHalflingLuckyHint": "Přehoz jedničky když se hází d20.",
 "DND5E.FlagsInitiativeAdv": "Výhoda na iniciativu",
@@ -1993,7 +1993,7 @@
 "DND5E.FlagsSpellCritThreshold": "Práh kritického zásahu pro kouzla",
 "DND5E.FlagsSpellCritThresholdHint": "Rozšířený práh kritického zásahu pro útoky kouzly.",
 "DND5E.FlagsMeleeCriticalDice": "Kritické kostky zásahu v boji nablízko.",
-"DND5E.FlagsMeleeCriticalDiceHint": "Počet dodatečných kostek poškození přidaných ke kritickým zásahům zbraněmi nablízko.",
+"DND5E.FlagsMeleeCriticalDiceHint": "Počet dodatečných kostek zásahu přidaných ke kritickým zásahům zbraněmi nablízko.",
 "DND5E.Flat": "Pevný",
 "DND5E.Formula": "Vzorec",
 "DND5E.FormulaMalformedError": "Problém s přípravou vzorce {property} u {name}.",
@@ -2097,7 +2097,7 @@
 "DND5E.HitPointsTempMaxHint": "Dočasná změna maxima BV.",
 "DND5E.HitPointsTempMaxShort": "Dočas. max. BV",
 "DND5E.HP": "Body výdrže",
-"DND5E.HealthConditions": "Podmínky výdrže",
+"DND5E.HealthConditions": "Stavy výdrže",
 "DND5E.HPFormula": "Vzorec výdrže",
 "DND5E.HPFormulaError": "Poskytnutý vzorec pro body výdrže nelze vyhodnotit.",
 "DND5E.HPFormulaRollMessage": "Hod vzorce pro body výdrže",
@@ -2154,7 +2154,7 @@
 "DND5E.ItemConsumableProperties": "Parametry spotřební položky",
 "DND5E.ItemConsumableStatus": "Status spotřební položky",
 "DND5E.ItemConsumableSubtype": "typ {category}",
-"DND5E.ItemConsumableType": "Typ spotřebční položky",
+"DND5E.ItemConsumableType": "Typ spotřební položky",
 "DND5E.ItemContainerCapacity": "Kapacita",
 "DND5E.ItemContainerCapacityItems": "Položky",
 "DND5E.ItemContainerCapacityMax": "Maximální kapacita",
@@ -2165,7 +2165,7 @@
 "DND5E.ItemContainerStatus": "Stav kontejneru",
 "DND5E.ItemCreate": "Vytvořit položku",
 "DND5E.ItemCritThreshold": "Práh kritického zásahu",
-"DND5E.ItemCritExtraDamage": "Další poškození při kritickém zásahu",
+"DND5E.ItemCritExtraDamage": "Další zranění při kritickém zásahu",
 "DND5E.ItemDelete": "Smazat položku",
 "DND5E.ItemEdit": "Upravit položku",
 "DND5E.ItemEquipmentAction": "Akce vybavení",
@@ -2433,7 +2433,7 @@
 "DND5E.QuantityAbbr": "Mnž.",
 "DND5E.QuantityFormula": "Vzorec množství",
 "DND5E.QuantityRoll": "Hod na množství",
-"DND5E.RacialTraits": "Rysy druhu",
+"DND5E.RacialTraits": "Druhové rysy",
 "DND5E.RANGE": {
   "FIELDS": {
     "range": {
@@ -2512,7 +2512,7 @@
   "Tooltip": "Nápověda",
   "Type": {
     "Label": "Typ pravidla",
-    "Condition": "Podmínka",
+    "Condition": "Stav",
     "Rule": "Pravidlo"
   }
 },
@@ -2539,17 +2539,17 @@
   },
   "FIELDS": {
     "damage": {
-      "label": "Poškození po záchraně",
+      "label": "Zranění po záchraně",
       "onSave": {
-        "label": "Poškození po záchraně",
-        "hint": "Jaké poškození by mělo být aplikováno při úspěšné záchraně?",
-        "Full": "Plné poškození",
-        "Half": "Poloviční poškození",
-        "None": "Žádné poškození"
+        "label": "Zranění po záchraně",
+        "hint": "Jaké zranění by mělo být aplikováno při úspěšné záchraně?",
+        "Full": "Plné zranění",
+        "Half": "Poloviční zranění",
+        "None": "Žádné zranění"
       },
       "parts": {
-        "label": "Části poškození",
-        "hint": "Jednotlivé části poškození, které se mají zahrnout do hodu."
+        "label": "Části zranění",
+        "hint": "Jednotlivé části zranění, které se mají zahrnout do hodu."
       }
     },
     "effects": {
@@ -2879,7 +2879,7 @@
   },
   "Wealth": {
     "Label": "Počáteční bohatství",
-    "Hint": "Vzorec množství ZL, který může být použit místo počátečního vybavení."
+    "Hint": "Vzorec množství ZL, které mohou být použity namísto počátečního vybavení."
   }
 },
 "DND5E.SubclassAdd": "Přidat obor",
@@ -2899,7 +2899,7 @@
       },
       "attackDamage": {
         "label": "Bonus k útoku",
-        "hint": "Dodatečné poškození způsobované útoky bytosti."
+        "hint": "Dodatečné zranění způsobované útoky bytosti."
       },
       "hd": {
         "label": "Bonusové kostky obnovy",
@@ -2914,8 +2914,8 @@
         "hint": "Dodatečné body výdrže přidané k bytosti nad to, co je již specifikováno v jejím statbloku."
       },
       "saveDamage": {
-        "label": "Bonusové poškození při záchranách",
-        "hint": "Dodatečné poškození způsobované schopnostmi bytosti, které vyžadují záchranné hody."
+        "label": "Bonusové zranění při záchranách",
+        "hint": "Dodatečné zranění způsobované schopnostmi bytosti, které vyžadují záchranné hody."
       }
     },
     "creatureSizes": {
@@ -3224,14 +3224,14 @@
 "DND5E.TraitConfigChooseList": "{count} z {list}",
 "DND5E.TraitConfigChooseOther": "{count} další {type}",
 "DND5E.TraitConfigChooseWrapper": "Vyber {choices}",
-"DND5E.TraitDIPlural.one": "Imunita vůči poškození",
-"DND5E.TraitDIPlural.other": "Imunity vůči poškození",
+"DND5E.TraitDIPlural.one": "Imunita vůči zranění",
+"DND5E.TraitDIPlural.other": "Imunity vůči zranění",
 "DND5E.TraitDMPlural.one": "Oprava zranění",
 "DND5E.TraitDMPlural.other": "Opravy zranění",
-"DND5E.TraitDRPlural.one": "Odolání poškození",
-"DND5E.TraitDRPlural.other": "Odolání poškození",
-"DND5E.TraitDVPlural.one": "Zranitelnost vůči poškození",
-"DND5E.TraitDVPlural.other": "Zranitelnosti vůči poškození",
+"DND5E.TraitDRPlural.one": "Odolání zranění",
+"DND5E.TraitDRPlural.other": "Odolání zranění",
+"DND5E.TraitDVPlural.one": "Zranitelnost vůči zranění",
+"DND5E.TraitDVPlural.other": "Zranitelnosti vůči zranění",
 "DND5E.TraitGenericPlural.one": "Rys",
 "DND5E.TraitGenericPlural.other": "Rysy",
 "DND5E.TraitLanguagesPlural.one": "Jazyk",
@@ -3285,10 +3285,10 @@
   "Dusk": "Soumrak",
   "DuskAbbreviation": "Soum.",
   "Lr": "Důkladný odpočinek",
-  "LrAbbreviation": "DO.",
+  "LrAbbreviation": "D.O.",
   "Never": "Nikdy",
   "Sr": "Krátký odpočinek",
-  "SrAbbreviation": "KO."
+  "SrAbbreviation": "K.O."
 },
 "DND5E.USES": {
   "FIELDS": {
@@ -3339,10 +3339,10 @@
   }
 },
 "DND5E.UTILITY": {
-  "Title": "Pomocné kouzlo",
+  "Title": "Pomocný prostředek",
   "FIELDS": {
     "roll": {
-      "label": "Hod na pomocné kouzlo",
+      "label": "Hod na pomocný prostředek",
       "formula": {
         "label": "Vzorec hodu",
         "hint": "Vzorec pro libovolný hod."
@@ -3352,7 +3352,7 @@
         "hint": "Název zobrazený u tlačítka hodu."
       },
       "prompt": {
-        "label": "Výzva k hodu na pomocné kouzlo",
+        "label": "Výzva k hodu na pomocný prostředek",
         "hint": "Má se při hodu zobrazit dialog pro nastavení hodu?"
       },
       "visible": {
@@ -3393,7 +3393,7 @@
 "DND5E.VehicleTypeWater": "Vodní",
 "DND5E.VehicleUncrewed": "Bez posádky",
 "DND5E.Versatile": "Univerzální",
-"DND5E.VersatileDamage": "Univerzální poškození",
+"DND5E.VersatileDamage": "Univerzální zranění",
 "DND5E.VsDC": "proti SO.",
 "DND5E.Vulnerabilities": "Zranitelnosti",
 "DND5E.WarnBadACFormula": "Zadaný vzorec pro OČ „{formula}“ nebylo možné vyhodnotit.",
@@ -3408,7 +3408,7 @@
       }
     },
     "damage": {
-      "hint": "Vlastní kostky poškození zbraně. Oprava vlastnosti a další části poškození budou automaticky přidány při útoku."
+      "hint": "Vlastní kostky zásahu zbraně. Oprava vlastnosti a další části zranění budou automaticky přidány při útoku."
     },
     "mastery": {
       "label": "Mistrovství",
@@ -3431,12 +3431,12 @@
 "DND5E.WeaponCategory": "{category} zbraň",
 "DND5E.WeaponImprov": "Improvizovaná",
 "DND5E.WeaponMartialM": "Válečná nablízko",
-"DND5E.WeaponMartialProficiency": "Válečná",
+"DND5E.WeaponMartialProficiency": "Válečné",
 "DND5E.WeaponMartialR": "Válečná na dálku",
 "DND5E.WeaponNatural": "Přirozená",
 "DND5E.WeaponSiege": "Obléhací zbraň",
 "DND5E.WeaponSimpleM": "Jednoduchá nablízko",
-"DND5E.WeaponSimpleProficiency": "Jednoduchá",
+"DND5E.WeaponSimpleProficiency": "Jednoduché",
 "DND5E.WeaponSimpleR": "Jednoduchá na dálku",
 "DND5E.Weight": "Váha",
 "DND5E.WeightUnit": {
@@ -3592,7 +3592,7 @@
     "TableCaption": "{class}",
     "TableOptionalCaption": "Volitelné schopnosti {class}",
     "Traits": {
-      "Caption": "Hlavní schopnosti {class}",
+      "Caption": "Základní rysy {class}",
       "Header": "Zdatnosti"
     }
   },
@@ -3670,9 +3670,9 @@
   "None": "Skrýt vše",
   "Player": "Zobrazit pouze od ostatních hráčů"
 },
-"SETTINGS.5eCriticalMaxDiceN": "Maximalizace počtu kostek kritického poškození",
-"SETTINGS.5eCriticalMaxDiceL": "Učiní kritické zásahy smrtelnějšími maximalizováním hodnot základních kostek poškození.",
-"SETTINGS.5eCriticalModifiersN": "Násobení oprav kritického poškození",
+"SETTINGS.5eCriticalMaxDiceN": "Maximalizace počtu kostek kritického zásahu",
+"SETTINGS.5eCriticalMaxDiceL": "Učiní kritické zásahy smrtelnějšími maximalizováním hodnot základních kostek zásahu.",
+"SETTINGS.5eCriticalModifiersN": "Násobení oprav kritického zásahu",
 "SETTINGS.5eCriticalModifiersL": "Učiní kritické zásahy smrtelnějšími násobením oprav, které nejsou kostkami, navíc k hodům kostkami.",
 "SETTINGS.5eCurWtL": "Nesené mince ovlivňují zatížení postavy podle pravidel na str. 143 PHB.",
 "SETTINGS.5eCurWtN": "Aplikovat váhu mincí",
@@ -3733,7 +3733,7 @@
   },
   "COLLAPSETRAYS": {
     "Name": "Skrýt boxy v chatu",
-    "Hint": "Automaticky skrýt boxy pro poškození, zásahy a efekty, které se objevují v kartách chatu.",
+    "Hint": "Automaticky skrývat boxy pro zranění, zásahy a efekty, které se objevují v kartách chatu.",
     "Always": "Skrýt vše",
     "Older": "Skrýt starší boxy",
     "Never": "Vše otevřené"
