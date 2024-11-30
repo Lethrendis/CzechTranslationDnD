@@ -603,7 +603,7 @@
   "Summary": {
     "Gold": "{value} ({claimed})",
     "NoOrders": "V tomto tahu nebyly dány zařízení žádné příkazy.",
-    "Order": "{link} dokončil příkaz <strong>{order}</strong>."
+    "Order": "{link} splnilo příkaz <strong>{order}</strong>."
   }
 },
 
@@ -766,7 +766,7 @@
 "DND5E.ClassIdentifierHint": "Data tohoto povolání budou přístupná pomocí <strong>@classes.{identifier}</strong> ve vzorcích hodů.",
 "DND5E.ClassLevels": "Úrovně povolání",
 "DND5E.ClassMakeOriginal": "Původní povolání",
-"DND5E.ClassMakeOriginalHint": "První povolání, které hráč u postavy zvolil. Používá se k určení určitých rysů povolání v rámci multipovolání.",
+"DND5E.ClassMakeOriginalHint": "První povolání, které bylo u postavy zvoleno. Používá se k určení určitých rysů povolání v rámci multipovolání.",
 "DND5E.ClassName": "Název povolání",
 "DND5E.ClassOriginal": "Původní povolání",
 "DND5E.ClassSaves": "Záchranné Hody",
@@ -816,7 +816,7 @@
   },
   "Tabs": {
     "Feat.other": "Odbornosti",
-    "Item.other": "Položky",
+    "Item.other": "Vybavení",
     "Monster.other": "Nestvůry"
   },
   "Types": {
@@ -832,8 +832,8 @@
 "DND5E.ComponentVerbalAbbr": "V",
 "DND5E.Components": "Složky",
 "DND5E.Container": "Kontejner",
-"DND5E.ContainerDeleteMessage": "Tento kontejner bude trvale odstraněn a nelze jej obnovit. {count} položek obsažených uvnitř bude přesunuto.",
-"DND5E.ContainerDeleteContents": "Odstranit také všechny položky uvnitř kontejneru.",
+"DND5E.ContainerDeleteMessage": "Tento kontejner bude trvale odstraněn a nelze jej obnovit. {count} předmětů obsažených uvnitř bude přesunuto.",
+"DND5E.ContainerDeleteContents": "Odstranit také všechny předměty uvnitř kontejneru.",
 "DND5E.ContainerMaxDepth": "Kontejnery nelze vnořit více než o {depth} úrovní.",
 "DND5E.ContainerRecursiveError": "Kontejnery nemohou obsahovat samy sebe.",
 "DND5E.Contents": "Obsah",
@@ -1276,7 +1276,7 @@
 "DND5E.DamRes": "Odolání vůči zranění",
 "DND5E.DamVuln": "Zranitelnosti vůči zranění",
 "DND5E.Damage": "Zranění",
-"DND5E.DamageAcid": "Kyselinové",
+"DND5E.DamageAcid": "kyselinové",
 "DND5E.DamageAll": "Veškeré zranění",
 "DND5E.DamageApplication": {
   "Change": {
@@ -1288,45 +1288,45 @@
   "Downgrading": "Snížení {source} odoláním",
   "Ignoring": "Ignorování {source}"
 },
-"DND5E.DamageBludgeoning": "Drtivé",
-"DND5E.DamageCold": "Chladné",
-"DND5E.DamageFire": "Ohnivé",
-"DND5E.DamageForce": "Silové",
-"DND5E.DamageLightning": "Bleskové",
+"DND5E.DamageBludgeoning": "drtivé",
+"DND5E.DamageCold": "chladné",
+"DND5E.DamageFire": "ohnivé",
+"DND5E.DamageForce": "silové",
+"DND5E.DamageLightning": "bleskové",
 "DND5E.DamageModification": {
   "Label": "Úprava zranění",
   "Hint": "Vzorce pro množství zranění, které budou přičteny k již zadanému aplikovanému na tohoto aktéra. Záporné hodnoty způsobené zranění sníží.",
   "BypassHint": "Tyto parametry zbraní obejdou úpravu zranění u fyzického zranění."
 },
-"DND5E.DamageNecrotic": "Nekrotické",
-"DND5E.DamagePiercing": "Bodné",
-"DND5E.DamagePhysical": "Nemagické fyzické",
+"DND5E.DamageNecrotic": "nekrotické",
+"DND5E.DamagePiercing": "bodné",
+"DND5E.DamagePhysical": "nemagické fyzické",
 "DND5E.DamagePhysicalBypass": "Obejití fyzického",
 "DND5E.DamagePhysicalBypassHint": "Tyto parametry zbraní obejdou odolání vůči fyzickému zranění.",
 "DND5E.DamagePhysicalBypasses": "Útoky {damageTypes}, které nejsou {bypassTypes}",
 "DND5E.DamagePhysicalBypassesShort": "Obejití typem {type} zdroje",
-"DND5E.DamagePoison": "Jedové",
-"DND5E.DamagePsychic": "Psychické",
-"DND5E.DamageRadiant": "Zářivé",
-"DND5E.DamageRoll": "Hod na zranění",
-"DND5E.DamageSlashing": "Sečné",
+"DND5E.DamagePoison": "jedové",
+"DND5E.DamagePsychic": "psychické",
+"DND5E.DamageRadiant": "zářivé",
+"DND5E.DamageRoll": "Hod na zásah",
+"DND5E.DamageSlashing": "sečné",
 "DND5E.DamageThreshold": "Práh zranění",
-"DND5E.DamageThunder": "Hromové",
+"DND5E.DamageThunder": "hromové",
 "DND5E.DamageType": "Typ zranění",
 "DND5E.DamageTypes": "Typy zranění",
 "DND5E.Dawn": "Svítání",
 "DND5E.Day": "Den",
 "DND5E.DeathSave": "Záchrany před smrtí",
-"DND5E.DeathSaveCriticalSuccess": "{name} kriticky uspěl/a v záchranném hodu a získal/a 1 bod výdrže!",
+"DND5E.DeathSaveCriticalSuccess": "{name} kriticky uspěl(a) v záchranném hodu a získal(a) 1 bod výdrže!",
 "DND5E.DeathSaveHide": "Skrýt záchrany před smrtí",
 "DND5E.DeathSaveShow": "Zobrazit záchrany před smrtí",
-"DND5E.DeathSaveSuccess": "{name} přežil/a 3 úspěšné záchrany před smrtí a je nyní stabilní!",
+"DND5E.DeathSaveSuccess": "{name} přežil(a) 3 úspěšné záchrany před smrtí a je nyní stabilní!",
 "DND5E.DeathSaveSuccessLabel": "Úspěch v záchraně před smrtí",
 "DND5E.DeathSaveSuccessLabelN.one": "1. úspěch v záchraně před smrtí",
 "DND5E.DeathSaveSuccessLabelN.two": "2. úspěch v záchraně před smrtí",
 "DND5E.DeathSaveSuccessLabelN.few": "3. úspěch v záchraně před smrtí",
 "DND5E.DeathSaveSuccesses": "Úspěchy",
-"DND5E.DeathSaveFailure": "{name} zemřel/a po 3 neúspěšných záchranách před smrtí!",
+"DND5E.DeathSaveFailure": "{name} zemřel(a) po 3 neúspěšných záchranách před smrtí!",
 "DND5E.DeathSaveFailureLabel": "Neúspěch v záchraně před smrtí",
 "DND5E.DeathSaveFailureLabelN.one": "1. neúspěch v záchraně před smrtí",
 "DND5E.DeathSaveFailureLabelN.two": "2. neúspěch v záchraně před smrtí",
@@ -1574,8 +1574,8 @@
 "DND5E.ExperiencePoints": "Body zkušeností",
 "DND5E.ExperiencePointsAbbr": "XP",
 "DND5E.ExperiencePointsBoons": {
-  "one": "{number} Požehnání",
-  "other": "{number} Požehnání"
+  "one": "{number} dar",
+  "other": "{number} dary"
 },
 "DND5E.ExperiencePointsCurrent": "Aktuální XP",
 "DND5E.ExperiencePointsFormat": "{value} XP",
@@ -1835,7 +1835,7 @@
     }
   },
   "Use": {
-    "Description": "Byl vydán příkaz <strong>{order}</strong> svému {link} {facilityType}."
+    "Description": "Byl vydán příkaz <strong>{order}</strong> pro {link} {facilityType}."
   }
 },
 "DND5E.Favorite": "Oblíbené",
@@ -1866,7 +1866,7 @@
   },
   "Feat": {
     "Label": "Odbornost",
-    "EpicBoon": "Epické požehnání",
+    "EpicBoon": "Epické dary",
     "FightingStyle": "Bojový styl",
     "General": "Obecná odbornost",
     "Origin": "Dané původem"
@@ -1877,14 +1877,14 @@
     "Label": "Nadpřirozený dar",
     "Blessing": "Požehnání",
     "Charm": "Zmámení",
-    "EpicBoon": "Epické požehnání"
+    "EpicBoon": "Epický dar"
   }
 },
 "DND5E.Focus": {
   "Label": "Sesílací ohnisko",
   "Arcane": "Mystické ohnisko",
   "Druidic": "Druidské ohnisko",
-  "Holy": "Posvátné ohnisko"
+  "Holy": "Svatý symbol"
 },
 "DND5E.Loot.Art": "Umělecký předmět",
 "DND5E.Loot.Gear": "Výbava dobrodruha",
@@ -1967,15 +1967,15 @@
 "DND5E.FlagsTitle": "Nastavení speciálních rysů",
 "DND5E.FlagsDiamondSoul": "Diamantová duše",
 "DND5E.FlagsDiamondSoulHint": "Zisk zdatnosti ve všech záchranných hodech.",
-"DND5E.FlagsPowerfulBuild": "Silně stavěný",
+"DND5E.FlagsPowerfulBuild": "Mohutně stavěný",
 "DND5E.FlagsPowerfulBuildHint": "Zajišťuje zvýšenou nosnost.",
 "DND5E.FlagsElvenAccuracy": "Elfí přesnost",
 "DND5E.FlagsElvenAccuracyHint": "Když máš Výhodu, můžeš na Obratnost, Inteligenci, Moudrost, nebo Charisma hodit jednou d20 navíc.",
-"DND5E.FlagsHalflingLucky": "Ohromné štěstí",
+"DND5E.FlagsHalflingLucky": "Štěstí",
 "DND5E.FlagsHalflingLuckyHint": "Přehoz jedničky když se hází d20.",
 "DND5E.FlagsInitiativeAdv": "Výhoda na iniciativu",
 "DND5E.FlagsInitiativeAdvHint": "Poskytováno odbornostmi či magickými předměty.",
-"DND5E.FlagsAlert": "Bdělý ochránce",
+"DND5E.FlagsAlert": "Ostražitost",
 "DND5E.FlagsAlertHint": "Zdatnost v initiativě.",
 "DND5E.FlagsAlertHintLegacy": "Poskytuje +5 k initiativě.",
 "DND5E.FlagsJOAT": "Všeuměl",
@@ -2327,10 +2327,10 @@
 "DND5E.LongRestHintGroup": "Důkladně si odpočinete? Během důkladného odpočinku se členům skupiny obnoví body výdrže, kostky obnovy, zdroje povolání, omezená použití předmětů a pozice kouzel.",
 "DND5E.LongRestHintGroupLegacy": "Důkladně si odpočinete? Během důkladného odpočinku se členům skupiny obnoví body výdrže, polovina jejich maximálního počtu kostek obnovy, zdroje povolání, omezená použití předmětů a pozice kouzel.",
 "DND5E.LongRestRecovery": "Obnovuje se po dlouhém odpočinku",
-"DND5E.LongRestResult": "{name} důkladně odpočívá a obnovuje {health} bodů výdrže a {dice} kostky obnovy.",
-"DND5E.LongRestResultHitDice": "{name} důkladně odpočívá a obnovuje {dice} kostky obnovy.",
-"DND5E.LongRestResultHitPoints": "{name} důkladně odpočívá a obnovuje {health} body výdrže.",
-"DND5E.LongRestResultShort": "{name} ůkladně odpočívá.",
+"DND5E.LongRestResult": "{name} důkladně odpočívá a obnovuje {health} body(ů) výdrže a {dice} kostky(ek) obnovy.",
+"DND5E.LongRestResultHitDice": "{name} důkladně odpočívá a obnovuje {dice} kostky(ek) obnovy.",
+"DND5E.LongRestResultHitPoints": "{name} důkladně odpočívá a obnovuje {health} body(ů) výdrže.",
+"DND5E.LongRestResultShort": "{name} důkladně odpočívá.",
 "DND5E.MagicalBonus": "Magický bonus",
 "DND5E.Materials": "Suroviny",
 "DND5E.Max": "Maximum",
@@ -2424,7 +2424,7 @@
 "DND5E.ProficiencyConfigureTitle": "Nastavení {label}",
 "DND5E.ProficiencyLevel": "Úroveň zdatnosti",
 "DND5E.ProficiencyOther": "Jiné",
-"DND5E.Proficient": "Zdatný",
+"DND5E.Proficient": "Zdatnost",
 "DND5E.Properties": "Parametry",
 "DND5E.PropertyBase": "Základní",
 "DND5E.PropertyTotal": "Celkem",
@@ -2636,11 +2636,11 @@
 "DND5E.School": "Škola magie",
 "DND5E.SchoolAbj": "Vymítací",
 "DND5E.SchoolCon": "Vyvolávací",
-"DND5E.SchoolDiv": "Věštecká",
+"DND5E.SchoolDiv": "Věštecké",
 "DND5E.SchoolEnc": "Očarovací",
 "DND5E.SchoolEvo": "Zaklínání",
 "DND5E.SchoolIll": "Iluzorní",
-"DND5E.SchoolNec": "Nekromantická",
+"DND5E.SchoolNec": "Nekromantické",
 "DND5E.SchoolTrs": "Transmutační",
 "DND5E.ShortRest": "Krátký odpočinek",
 "DND5E.ShortRestNormal": "Krátký odpočinek (1 hodina)",
@@ -2651,8 +2651,8 @@
 "DND5E.ShortRestHintGroup": "Krátce si odpočineš? Při krátkém odpočinku mohou členové skupiny utratit kostky obnovy a obnovit použití předmětů.",
 "DND5E.ShortRestNoHD": "Nezbývají žádné kostky obnovy",
 "DND5E.ShortRestRecovery": "Obnovuje se po krátkém odpočinku",
-"DND5E.ShortRestResult": "{name} si krátce odpočinul, přičemž utrácí {dice} kostky obnovy, aby obnovil {health} bodů výdrže.",
-"DND5E.ShortRestResultShort": "{name} si krátce odpočinul.",
+"DND5E.ShortRestResult": "{name} si krátce odpočinul(a), přičemž utrácí {dice} kostky(ek) obnovy, aby obnovil(a) {health} body(ů) výdrže.",
+"DND5E.ShortRestResultShort": "{name} si krátce odpočinul(a).",
 "DND5E.ShortRestSelect": "Vyber kostky k hodu",
 "DND5E.Size": "Velikost",
 "DND5E.SizeGargantuan": "Gigantický",
@@ -2768,7 +2768,7 @@
 "DND5E.SpellAdd": "Přidat kouzlo",
 "DND5E.SpellCantrip": "Trik",
 "DND5E.SpellCastConsume": "Spotřebovat pozici kouzla?",
-"DND5E.SpellCastNoSlots": "Nemáš žádnou dostupnou pozici kouzel {level} stupně pro seslání {name}",
+"DND5E.SpellCastNoSlots": "Nemáš žádnou dostupnou pozici kouzla {level} stupně pro seslání {name}",
 "DND5E.SpellCastNoSlotsLeft": "Nemáš žádné dostupné pozice kouzel pro seslání {name}!",
 "DND5E.SpellCastTime": "Doba sesílání",
 "DND5E.SpellCastUpcast": "Sešli na stupni",
@@ -2886,7 +2886,7 @@
 "DND5E.SubclassIdentifierHint": "Tento identifikátor by měl odpovídat identifikátoru v nadřazeném povolání, aby bylo zajištěno správné propojení.",
 "DND5E.SubclassAssignmentError": "{class} již má obor. Odstraň stávající obor '{subclass}', než přidáš novou.",
 "DND5E.SubclassDuplicateError": "Obor s identifikátorem {identifier} již na tomto aktérovi existuje.",
-"DND5E.SubclassMismatchWarn": "Obor {name} nemá odpovídající povolání s identifikátorem '{class}'.",
+"DND5E.SubclassMismatchWarn": "Obor {name} nenachází odpovídající povolání s identifikátorem '{class}'.",
 "DND5E.SubclassName": "Název oboru",
 "DND5E.Subtype": "Podtyp",
 "DND5E.SUMMON": {
@@ -2945,7 +2945,7 @@
       }
     },
     "profiles": {
-      "label": "Provily přivolání",
+      "label": "Profily přivolání",
       "FIELDS": {
         "count": {
           "label": "Počet"
@@ -3602,9 +3602,9 @@
     "DropHint": "Aby se kouzla přidala do seznamu, přetáhni je sem",
     "Grouping": {
       "Label": "Režim seskupení",
-      "Hint": "Určuje, jak budou kouzla standardně seskupena v seznamu kouzel.",
-      "Alphabetical": "Podle prvního písmene",
-      "Level": "Podle úrovně",
+      "Hint": "Určuje, jak budou kouzla standardně v seznamu kouzel seskupena.",
+      "Alphabetical": "Od prvního písmene",
+      "Level": "Podle stupně",
       "None": "Neseskupovat",
       "School": "Podle školy"
     },
