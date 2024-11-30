@@ -6,7 +6,7 @@
     "minimum": "12.331",
     "verified": "12.331"
   },
-  "description": "Český překlad DnD5e 4.1.1",
+  "description": "Český překlad DnD5e 4.1.2",
   "authors": [
     {
       "name": "Lethrendis",
@@ -21,5 +21,6 @@
       "path": "lang/cs.json"
     }
   ],
-  "url": "https://github.com/Lethrendis/CzechTranslationDnD"  
+  "url": "https://github.com/Lethrendis/CzechTranslationDnD",
+  "manifest": "https://github.com/Lethrendis/CzechTranslationDnD" 
 }
