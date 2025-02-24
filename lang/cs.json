@@ -2485,18 +2485,18 @@
 "DND5E.Habitat": {
   "Categories": {
     "Any": "Jakékoliv",
-    "Arctic": "Arktické",
-    "Coastal": "Pobřežní",
-    "Desert": "Pouštní",
-    "Forest": "Lesní",
-    "Grassland": "Travnaté pláně",  
-    "Hill": "Kopcovité",  
-    "Mountain": "Horské",  
-    "Planar": "Mimodimenzionální",  
-    "Swamp": "Bažinaté",  
+    "Arctic": "Arktida",
+    "Coastal": "Pobřeží",
+    "Desert": "Poušť",
+    "Forest": "Les",
+    "Grassland": "Pláně",  
+    "Hill": "Kopce",  
+    "Mountain": "Hory",  
+    "Planar": "Sféry",  
+    "Swamp": "Bažina",  
     "Underdark": "Podtemno",  
     "Underwater": "Podvodní",  
-    "Urban": "Městské"  
+    "Urban": "Město"  
   },
   "Configuration": {
     "Custom": "Vlastní",
