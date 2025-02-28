@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro DnD5e verze 4.3.5. Obsahuje překla
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://github.com/Lethrendis/CzechTranslationDnD/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationDnD/main/module.json
 ```
 
 ## Autor
