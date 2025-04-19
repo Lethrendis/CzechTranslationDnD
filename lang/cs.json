@@ -108,7 +108,7 @@
 "DND5E.AbilityModifierShort": "Oprava",
 "DND5E.AbilityPromptText": "Jaký druh ověření {ability}?",
 "DND5E.AbilityPromptTitle": "Ověření {ability}",
-"DND5E.AbilityUseChargesLabel": "Nabití {hodnota}",
+"DND5E.AbilityUseChargesLabel": "{value} nabití",
 "DND5E.AbilityUseConsumableLabel": "{max} za {per}",
 "DND5E.AbilityUseCast": "Seslat kouzlo",
 "DND5E.AbilityUseUse": "Použít vlastnost",
@@ -121,7 +121,7 @@
 "DND5E.AbilityCheckConfigurationHint": "Nastaví bonusy k ověřením.",
 "DND5E.AbilityConfigurationHint": "Nastavení vlastností záchranných hodů, bonusů záchranných hodů a bonusů ověření.",
 "DND5E.AbilityCheckBonus": "Bonus k ověření",
-"DND5E.AbilityCheckGlobalBonusHint": "Tento bonus se vztahuje na všechna ověření vlastnosti provedené tímto aktérem.",
+"DND5E.AbilityCheckGlobalBonusHint": "Tento bonus se vztahuje na všechna ověření vlastností provedená tímto aktérem.",
 "DND5E.Action": "Akce",
 "DND5E.ActionAbbr": "A",
 "DND5E.ActionPl": "Akce",
@@ -137,7 +137,7 @@
 "DND5E.ActionSumm": "Vyvolání",
 "DND5E.ActionUtil": "Pomocná aktivita",
 "DND5E.ActionWarningNoItem": "Požadovaná položka {item} již u aktéra {name} neexistuje.",
-"DND5E.ActionWarningNoToken": "Aby mohla být použita tuto možnost, musíš ovládat jeden nebo více tokenů.",
+"DND5E.ActionWarningNoToken": "Aby mohla být tato možnost použita, musíš ovládat jeden nebo více tokenů.",
 
 "DND5E.ACTIVATION": {
   "FIELDS": {
@@ -175,8 +175,8 @@
     },
     "Legendary": {
       "Counted": {
-        "one": "{number} legendárních akcí",
-        "other": "{number} legendárních akcí"
+        "one": "{number} legendární akce",
+        "other": "{number} legendární akce"
       }
     },
     "LongRest": {
@@ -247,7 +247,7 @@
 },
 
 "DND5E.ActorWarningInvalidItem": "K {actorType} nelze přidat položky {itemType}.",
-"DND5E.ActorWarningSingleton": "K {actorType} lze přidat pouze jediný {itemType}.",
+"DND5E.ActorWarningSingleton": "K {actorType} lze přidat pouze jedinou položku {itemType}.",
 "DND5E.ActiveEffectOverrideWarning": "Tato hodnota je modifikována aktivním efektem a nelze ji upravit. Deaktivuj efekt, aby ji šlo upravit.",
 "DND5E.Add": "Přidat",
 "DND5E.AdditionalControls": "Další ovládací prvky",
@@ -261,8 +261,8 @@
       "Select": "Vyber si odbornost"
     },
     "CapDisplay": {
-      "one": "Maximálně {points} body na vlastnost",
-      "other": "Maximálně {points} bodů na vlastnost"
+      "one": "Maximálně {points} bod na vlastnost",
+      "other": "Maximálně {points} body na vlastnost"
     },
     "Details": "Detaily postupu",
     "Feat": {
@@ -294,7 +294,7 @@
     "Hint": "Umožní hráči zvýšit jednu či více hodnot vlastností nebo si vybrat volitelnou odbornost.",
     "Journal": {
       "DescriptionLegacy": "<p>Když dosáhneš {firstLevelOrdinal} úrovně a následně {otherLevelsOrdinal} úrovně, můžeš svýšit jednu hodnotu vlastnosti dle tvého výběru o 2, nebo dvě hodnoty dle tvého výběru o 1. Jako obvykle nemůžeš užitím této odbornosti zvýšit hodnotu vlastnosti nad {maxAbilityScore}.</p><p>Užitím volitelného pravidla o odbornostech nemusíš použít pouze tuto odbornost, ale můžeš si místo ní vybrat i jinou odbornost dle svého výběru.</p>",
-      "DescriptionModern": "<p>Získla(a) jsi odbornost ´Zvýšení hodnot vlastností´, případně jnou odbornost, jejíž předpoklady splňuješ. Znovu tuto odbornost pro {class} získáš na {otherLevels} úrovni.</p>",
+      "DescriptionModern": "<p>Získla(a) jsi odbornost ´Zvýšení hodnot vlastností´, případně jinou odbornost, jejíž předpoklady splňuješ. Znovu tuto odbornost pro {class} získáš na {otherLevels}. úrovni.</p>",
       "Name": "Zvýšení hodnost vlastností"
         },
     "LockedHint": "Hodnoty nelze měnit, pokud je vybrána odbornost.",
@@ -305,7 +305,7 @@
     "Title": "Zvýšení hodnot vlastností",
     "Warning": {
       "Level": "Abys mohl(a) vzít tuto odbornost, musíš být alespoň na {level}. úrovni.",
-      "Type": "Mohou být vybrány pouze odbornosti s typem \"feat\"."
+      "Type": "Mohou být vybrány pouze odbornosti typu \"feat\"."
     }
   },
   "Action": {
@@ -346,7 +346,7 @@
         "label": "Povolení přetahování"
       },
       "choices": {
-        "hint": "Určí, kolik možností je povoleno na každé úrovni..",
+        "hint": "Určí, kolik možností je povoleno na každé úrovni.",
         "label": "Možností",
         "FIELDS": {
           "count": {
@@ -561,7 +561,7 @@
       "AddChoice": "Přidat výběr",
             "RemoveChoice": "Odstranit výběr"
     },
-    "ChoicesRemaining": "Výběr {count} dalších {type}",
+    "ChoicesRemaining": "Výběr {count} dalších typů {type}",
     "Details": "Detaily rysů",
     "FIELDS": {
       "allowReplacements": {
@@ -627,15 +627,15 @@
 "DND5E.AdvancementConfigurationModeEnabled": "Nastavování povolena",
 "DND5E.AdvancementConfigureTitle": "Nastavení postupu {item}.",
 "DND5E.AdvancementConfigureAllowDrops": "Povolit přetahování",
-"DND5E.AdvancementConfigureAllowDropsHint": "Měli by hráči moci přetahovat vlastní volby do tohoto postupu?",
-"DND5E.AdvancementConfigureDropAreaHint": "Pokládej položky sem, aby se přidaly do skupiny, ze které si hráč může vybírat.",
+"DND5E.AdvancementConfigureAllowDropsHint": "Smějí hráči přetahovat do tohoto postupu vlastní volby?",
+"DND5E.AdvancementConfigureDropAreaHint": "Pokládej položky sem, aby se přidaly do seznamu, ze kterého si hráč může vybírat.",
 "DND5E.AdvancementConfiguredComplete": "Plně nastaveno",
 "DND5E.AdvancementConfiguredIncomplete": "Nenastaveno",
 "DND5E.AdvancementCustomIcon": "Vlastní ikona",
 "DND5E.AdvancementCustomTitle": "Vlastní název",
 "DND5E.AdvancementDeleteConfirmationLabel": "Odstranit změny postupu",
-"DND5E.AdvancementDeleteConfirmationMessage": "Smazání této položky také odstraní všechny volby postupu, které byly díky ní provedeny. Pokud je zaškrtnuto níže uvedené políčko, budou tyto volby odstraněny z deníku postavy.",
-"DND5E.AdvancementDeleteConfirmationTitle": "Potvrdit smazání",
+"DND5E.AdvancementDeleteConfirmationMessage": "Odstranění této položky také odstraní všechny volby postupu, které byly díky ní provedeny. Pokud je zaškrtnuto níže uvedené políčko, budou tyto volby odstraněny z deníku postavy.",
+"DND5E.AdvancementDeleteConfirmationTitle": "Potvrdit odstranění",
 "DND5E.AdvancementFlowDropAreaHint": "Abys potvrdil(a) výběr položky, polož ji sem.",
 "DND5E.AdvancementHint": "Nápověda",
 "DND5E.AdvancementItemTypeInvalidWarning": "Položka typu {type} nemůže být v rámci tohoto postupu přidána.",
@@ -734,7 +734,7 @@
       },
       "flat": {
         "label": "Pevně stanovený zásah",
-        "hint": "Ignoruje modifikátor vlastnosti, odbornost a jiné bonusy a používá pouze bonus definovaný činností."
+        "hint": "Ignoruje opravy vlastností, odborností i jiné bonusy a používá pouze bonus definovaný činností."
       },
       "type": {
         "label": "Typ útoku",
@@ -752,7 +752,7 @@
       "label": "Zranění způsobené útokem",
       "critical": {
         "bonus": {
-          "label": "Bonus kritického zranění",
+          "label": "Bonus kritického zásahu",
           "hint": "Zranění přidané při kritickém zásahu. Přidává se k základnímu zranění, nebo k první části zranění."
         }
       },
@@ -820,7 +820,7 @@
   "Message": "{name} obdržel(a) {award}.",
   "NoDestinations": "Není dostupný žádný cíl",
   "NoPrimaryParty": "Není nastavená Žádná primární skupina, zobrazují se postavy přiřazené hráčům.",
-  "NotGMError": "Příkaz /award je dostupný pouze pro GM.",
+  "NotGMError": "Příkaz /award je dostupný pouze pro PJ.",
   "UnrecognizedWarning": "Nepodařilo se zpracovat {commands}. Příkaz /award by měl být použit s hodnotami XP a mincí, např. '/award 10zl 50xp'."
 },
 "DND5E.Background": "Zázemí",
@@ -837,32 +837,32 @@
     "NoActorWarning": "Není vybrána žádná postava jako cíl útoku. Vyber token, nebo otevři její deník.",
     "Resolve": "Vyřeš útok",
     "Result": {
-      "Damaged": "{link} poškozen útokem.",
+      "Damaged": "{link} poškozeno útokem.",
       "Deaths": {
-        "one": "<strong>{deaths}</strong> obránce byl zabit při útoku na pevnost!",
-        "other": "<strong>{deaths}</strong> obránců bylo zabito při útoku na pevnost!"
+        "one": "Při útoku na pevnost byl zabit <strong>{deaths}</strong> obránce!",
+        "other": "Při útoku na pevnost byli zabiti <strong>{deaths}</strong> obránci!"
       },
       "NoDeaths": "Útok na pevnost byl odražen bez obětí!",
-      "Undefended": "Nechráněná pevnost byla napadeno!"
+      "Undefended": "Nebráněná pevnost byla napadena!"
     },
     "Title": "Útok na pevnost"
   },
   "Button": {
-    "Label": "Zobrazit tlačítko kola pevnosti",
+    "Label": "Zobrazení tlačítka kola pevnosti",
     "Hint": "Zobrazí tlačítko pro odehrání kol pevnosti v hlavním rozhraní hry."
   },
   "Configuration": {
     "Name": "Pevnosti",
     "Label": "Nastavení pevností",
-    "Hint": "Různé možnosti nastavení pro systém pevností, jak je uvedena v DMG2024."
+    "Hint": "Různé možnosti nastavení pro systém pevností uvedené v DMG2024."
   },
   "Confirm": "Vypořádat jedno kolo pevnosti?",
   "Duration": {
-    "Label": "Délka kola pevnosti (dny)"
+    "Label": "Délka jednoho kola pevnosti (dny)"
   },
   "Enabled": {
-    "Label": "Povolit fungování pevností",
-    "Hint": "Když je povoleno, postavy hráčů budou mít po dosažení 5. úrovně přístup k nové záložce Pevnost na svých denících a budou moci budovat zařízení a vydávat jim příkazy."
+    "Label": "Povolení fungování pevností",
+    "Hint": "Když je povoleno, postavy hráčů budou mít po dosažení 5. úrovně přístup k nové záložce Pevnost na svých denících. Budou tedy moci budovat zařízení a vydávat jim příkazy."
   },
   "Gold": {
     "Claim": "Nárokovat příjem",
@@ -1043,7 +1043,7 @@
 "DND5E.Controls": {
   "Hint": "Povolí různé nápovědy v uživatelském rozhraní pro určité ovládací prvky myši a klávesnice.",
   "LeftClick": "Levé tlačítko myši",
-  "LockHint": "Středním tlačítkme myši uzamknout",
+  "LockHint": "Středním tlačítkem myši uzamknout",
   "MiddleClick": "Střední tlačítko myši",
   "Name": "Povolení nápovědy k ovládání",
   "Activity": {
@@ -1056,7 +1056,7 @@
 "DND5E.ChatContextDamage": "Aplikovat zranění",
 "DND5E.ChatContextHealing": "Aplikovat léčení",
 "DND5E.ChatContextTempHP": "Aplikovat dočasné BV",
-"DND5E.ChatContextDoubleDamage": "Použít dvojité zranění",
+"DND5E.ChatContextDoubleDamage": "Použít dvojnásobné zranění",
 "DND5E.ChatContextHalfDamage": "Použít poloviční zranění",
 "DND5E.ChatContextSelectHit": "Vybrat zasažené cíle",
 "DND5E.ChatContextSelectMiss": "Vybrat minuté cíle",
@@ -1089,7 +1089,7 @@
         "label": "Stupeň obtížnosti",
         "calculation": {
           "label": "Výpočet obtížnosti",
-          "hint": "Metoda nebo vlastnost použitá pro výpočet obtížnosti."
+          "hint": "Metoda nebo vlastnost použitá pro výpočet stupně obtížnosti."
         },
         "formula": {
           "label": "Vzorec SO",
@@ -1154,8 +1154,8 @@
 
 "DND5E.COMBATANT": {
   "Counted": {
-    "one": "{number} bojovníků",
-    "other": "{number} bojovníků"
+    "one": "{number} bojovník",
+    "other": "{number} bojovníci"
   }
 },
 
@@ -1173,7 +1173,7 @@
   "Filters": {
     "Label": "Filtry",
     "HasDarkvision": "Má vidění ve tmě",
-    "HasSpellcasting": "Umí sesílat kouzla",
+    "HasSpellcasting": "Může sesílat kouzla",
     "SearchResults": "Výsledky hledání"
   },
   "Selection": {
@@ -1221,7 +1221,7 @@
 "DND5E.Components": "Složky",
 "DND5E.Container": "Kontejner",
 "DND5E.ContainerDeleteMessage": "Tento kontejner bude trvale odstraněn a nelze jej obnovit. {count} předmětů obsažených uvnitř bude přesunuto.",
-"DND5E.ContainerDeleteContents": "Odstranit také všechny předměty uvnitř kontejneru.",
+"DND5E.ContainerDeleteContents": "Odstranit i všechny předměty uvnitř kontejneru.",
 "DND5E.ContainerMaxDepth": "Kontejnery nelze vnořit více než o {depth} úrovně.",
 "DND5E.ContainerRecursiveError": "Kontejnery nemohou obsahovat samy sebe.",
 "DND5E.Contents": "Obsah",
@@ -1243,11 +1243,11 @@
 "DND5E.ConBlinded": "Oslepený(á)",
 "DND5E.ConCharmed": "Zmámený(á)",
 "DND5E.ConDeafened": "Ohlušený(á)",
-"DND5E.ConDiseased": "Nemocný(á)",
+"DND5E.ConDiseased": "Nakažený(á)",
 "DND5E.CONDITIONS": {
   "RiderConditions": {
     "label": "Oddělení působení stavů",  
-    "hint": "Když je tento aktivní efekt aplikován, tyto další stavy pak budou aplikovány samostatně."
+    "hint": "Když je tento aktivní efekt aplikován, budou pak tyto další stavy aplikovány samostatně."
   }
 },
 "DND5E.ConExhaustion": "Vyčerpaný(á)",
@@ -1266,7 +1266,7 @@
 "DND5E.Concentration": "Soustředění",
 "DND5E.ConcentrationAbbr": "Sou.",
 "DND5E.ConcentrationBreak": "Přerušit soustředění",
-"DND5E.ConcentrationBreakWarning": "Přerušení soustředění na efekt působící na jiné bytosti vyžaduje aktivní přítomnost GM.",
+"DND5E.ConcentrationBreakWarning": "Přerušení soustředění na efekt působící na jiné bytosti vyžaduje aktivní přítomnost PJ.",
 "DND5E.ConcentrationBonus": "Bonus k soustředění",
 "DND5E.ConcentrationDuration": "Soustředění, až {duration}",
 "DND5E.ConcentratingOn": "Udržované soustředění na efekty '{name}' {type}.",
@@ -1279,7 +1279,7 @@
 "DND5E.ConcentratingWarnLimit": "Nemůžeš udržovat soustředění na více efektů!",
 "DND5E.ConcentratingWarnLimitOptional": "Aby šlo použít tuto položku, můžeš ukončit soustředění na jeden z efektů.",
 "DND5E.ConcentratingWarnLimitZero": "Nejsi schopen(a) udržet soustředění na žádné efekty!",
-"DND5E.ConcentrationConfigurationHint": "Nastaví modifikátory a bonusy soustředění, které se vztahují na tuto bytost.",
+"DND5E.ConcentrationConfigurationHint": "Nastaví opravy a bonusy soustředění vztahující se na tuto bytost.",
 "DND5E.ConsumeTitle": "Spotřeba zdrojů",
 "DND5E.ConsumeAmount": "Množství spotřeby",
 "DND5E.ConsumeHint": {
@@ -1321,7 +1321,7 @@
     "uses": {
       "autoDestroy": {
         "label": "Zničit při vyčerpání",
-        "hint": "Množství položky se sníží o 1 pokaždé, když jsou vyčerpána všechna jeho omezená použití."
+        "hint": "Množství položky se sníží o 1 pokaždé, kdy jsou vyčerpána všechna jeho omezená použití."
       }
     }
   },
@@ -1367,10 +1367,10 @@
 },
 
 "DND5E.ConsumableUseWarnStart": "Tento spotřební předmět má",
-"DND5E.ConsumableUseWarnEnd": "z aktuální jednotky",
-"DND5E.ConsumableUnitWarn": "zbývajících jednotek",
-"DND5E.ConsumableLastChargeWarn": "Toto je poslední použití této jednotky, po spotřebování bude také sníženo množství této položky o 1",
-"DND5E.ConsumableWithoutCharges": "dostupné jednotky k použití",
+"DND5E.ConsumableUseWarnEnd": "z aktuálních použití",
+"DND5E.ConsumableUnitWarn": "zbývajících použití",
+"DND5E.ConsumableLastChargeWarn": "Toto je poslední použití, po spotřebování bude sníženo množství této položky o 1",
+"DND5E.ConsumableWithoutCharges": "dostupná použití",
 
 "DND5E.CONSUMPTION": {
   "FIELDS": {
@@ -1483,8 +1483,8 @@
       "Label": "Suroviny",
       "PromptDecrease": "Spotřebovat surovinu?",
       "PromptIncrease": "Obnovit surovinu?",
-      "PromptHintDecrease": "Sníží množství {item} o <strong>{cost}</strong> ({quantity} zbývá).",
-      "PromptHintIncrease": "Zvýší množství {item} o <strong>{cost}</strong>.",
+      "PromptHintDecrease": "Sníží množství předmětů {item} o <strong>{cost}</strong> ({quantity} zbývá).",
+      "PromptHintIncrease": "Zvýší množství předmětů {item} o <strong>{cost}</strong>.",
       "Warning": "z {name}"
     },
     "SpellSlot": {
@@ -1508,10 +1508,10 @@
     "MissingAttribute": "Atribut {attribute}, který má být spotřebován aktivitou {activity} položky {item}, nebyl nalezen.",
     "MissingHitDice": "Aktér nemá povolání s {denomination} kostkou obnovy.",
     "MissingItem": "Položka, která má být spotřebována aktivitou {activity} položky {item}, nebyla nalezena.",
-    "MissingSpellSlot": "Žádné pozice kouzel {level} stupně nejsou k dispozici.",
+    "MissingSpellSlot": "Žádné pozice kouzel {level}. stupně nejsou k dispozici.",
     "None": "{type} není k dispozici ke spotřebě, požadováno {cost}.",
     "NotEnough": "Není dostatek {type} ke spotřebě, požadováno {cost} a pouze {available} k dispozici.",
-    "WillDestroy": "Spotřebováním {item} se vyčerpá poslední použití a položka bude zničena."
+    "WillDestroy": "Spotřebováním položky {item} se vyčerpá její poslední použití, bude tak zničena."
   }
 },
 
@@ -1580,7 +1580,7 @@
 "DND5E.CurrencyManager": {
   "Title": "Správa mincí",
   "Convert": {
-    "Label": "Převést",
+    "Label": "Převedení",
     "Action": "Převést všechny mince",
     "Hint": "Převede veškerou nesené mince na nejvyšší možnou nominální hodnotu, aby se snížilo množství mincí nesených postavou. Buď opatrný(á), tato akce není vratná."
   },
@@ -1591,7 +1591,7 @@
     "Label": "Převod",
     "Action": "Převést vybrané",
     "All": "Všechny",
-    "Half": "Polovina"
+    "Half": "Polovinu"
   }
 },
 "DND5E.Current": "Aktuální",
@@ -1608,7 +1608,7 @@
         },
         "bonus": {
           "label": "Extra kritické zranění",
-          "hint": "Extra zranění aplikované na první část zranění při kritickém hodu."
+          "hint": "Extra zranění aplikované na první část zranění při kritu."
         }
       },
       "parts": {
@@ -1658,7 +1658,7 @@
           },
           "types": {
             "label": "Typy zranění",
-            "hint": "Typ způsobeného zranění, nebo více zraněních, ze kterých si uživatel může vybrat."
+            "hint": "Typ způsobeného zranění, nebo více zranění, ze kterých si uživatel může vybrat."
           }
         }
       }
@@ -1691,7 +1691,7 @@
     "Modification": "{type} úprava",
     "Immunity": "Imunita vůči {type}",
     "Resistance": "Odolání vůči {type}",
-    "Vulnerability": "Zranitelnost {type} "
+    "Vulnerability": "Zranitelnost vůči {type} "
   },
   "Downgrading": "Snížení {source} odoláním",
   "Ignoring": "Ignorování {source}"
@@ -1819,11 +1819,11 @@
     "Delete": "Odstranit efekt",
     "Dissociate": "Oddělit efekt"
   },
-  "Empty": "Žádné přiřazené efekty. Použij tlačítko <i class=\"fas fa-plus\"></i> výše pro vytvoření, nebo vybert existující efekt z rozbalovací nabídky.",
+  "Empty": "Žádné přiřazené efekty. Použij tlačítko <i class=\"fas fa-plus\"></i> výše pro vytvoření, nebo vyber existující efekt z rozbalovací nabídky.",
   "Label": "Dostupné efekty"
 },
 "DND5E.EffectsApplyTokens": "Aplikovat na vybrané tokeny",
-"DND5E.EffectApplyWarningConcentration": "Aplikace efektu vyžadujícího soustředění jiné postavy vyžaduje oprávnění GM.",
+"DND5E.EffectApplyWarningConcentration": "Aplikace efektu vyžadujícího soustředění jiné postavy vyžaduje oprávnění PJ.",
 "DND5E.EffectApplyWarningOwnership": "Efekty nelze aplikovat na tokeny, které nevlastníš.",
 "DND5E.EffectsSearch": "Vyhledání efektů",
 
@@ -1856,6 +1856,31 @@
             "label": "Další položky",
             "hint": "Tyto další položky budou přidány bytosti při očarování jednoho z jejích předmětů a odstraněny při zrušení očarování."
           }
+        }
+      },
+      "level": {
+        "label": "Omezení úrovní",
+        "hint": "Rozsah úrovní potřebných pro použití tohoto očarování.",
+        "max": {
+          "label": "Maximální úroveň"
+        },
+        "min": {
+          "label": "Minimální úroveň"
+        }
+      },
+      "riders": {
+        "label": "Připojeno",
+        "activity": {
+          "label": "Další aktivity",
+          "hint": "Tyto další aktivity budou přidány k očarovanému předmětu při aplikaci tohoto očarování a budou také odstraněny, pokud bude odstraněno očarování."
+        },
+        "effect": {
+          "label": "Další efekty",
+          "hint": "Tyto další efekty budou přidány k očarovanému předmětu při aplikaci tohoto očarování a také odstraněny, pokud bude odstraněno očarování."
+        },
+        "item": {
+          "label": "Další položky",
+          "hint": "Tyto další položky budou bytosti přidány, pokud je některá z jeho položek očarována, a budou též odstraněny, pokud bude odstraněno očarování."
         }
       }
     },
@@ -2016,7 +2041,7 @@
 "DND5E.FACILITY": {
   "Action": {
     "DeleteDefender": "Odstranit obránce",
-    "DeleteOccupant": "Odstranit obyvatele",
+    "DeleteOccupant": "Odstranit pracovníka",
     "RemoveCraft": "Odstranit výrobu"
   },
   "AvailableFacility": {
@@ -2129,7 +2154,7 @@
   },
   "Goods": "Zboží",
   "NoDefenders": "Pevnost je nechráněna.",
-  "Occupants": "Obyvatelé",
+  "Occupants": "Pracovníci",
   "Order": {
     "Execute": "Provést příkaz",
     "Issue": "Vydat příkaz: {order}"
@@ -2299,7 +2324,7 @@
     "ArtificerInfusion": "Magická infuze",
     "ChannelDivinity": "Božská přízeň",
     "DefensiveTactic": "Obranná taktika",
-    "EldritchInvocation": "Tajemné vzývání",
+    "EldritchInvocation": "Mystické vzývání",
     "ElementalDiscipline": "Živelná disciplína",
     "FightingStyle": "Bojový styl",
     "HuntersPrey": "Lovcova kořist",
@@ -2307,7 +2332,7 @@
     "Maneuver": "Manévr",
     "Metamagic": "Metamagie",
     "Multiattack": "Vícenásobný útok",
-    "PactBoon": "Laskavost daná paktem",
+    "PactBoon": "Dar daný paktem",
     "PsionicPower": "Psionická síla",
     "Rune": "Runa",
     "SuperiorHuntersDefense": "Mimořádná lovcova obrana"
@@ -3004,14 +3029,14 @@
       },
       "override": {
         "label": "Přepsat dostřel",
-        "hint": "Bude používat tyto hodnoty místo dostřelu uvedeného u předmětu při této akci."
+        "hint": "Bude při této akci používat tyto hodnoty místo dostřelu uvedeného u předmětu."
       },
       "reach": {
         "label": "Dosah"
       },
        "special": {
          "label": "Speciální dostřel",
-         "hint": "Popis jakýchkoli speciálních vlastností dostřelu."
+         "hint": "Popis jakýchkoli speciálních parametrů dostřelu."
       },
       "units": {
         "label": "Jednotky dostřelu",
@@ -3503,12 +3528,12 @@
 "DND5E.Subtype": "Podtyp",
 
 "DND5E.SUMMON": {
-  "Title": "Přivolání",
+  "Title": "Vyvolání",
   "FIELDS": {
     "bonuses": {
       "ac": {
         "label": "Bonus k obraně",
-        "hint": "Bonus k obrannému číslu nastavený na přivolanou bytost bude přidán k tomu, co je již specifikováno v jejím statbloku."
+        "hint": "Bonus k obrannému číslu nastavený vyvolané bytosti bude přidán k tomu, co je již specifikováno v jejím statbloku."
       },
       "attackDamage": {
         "label": "Bonus k útoku",
@@ -3516,7 +3541,7 @@
       },
       "hd": {
         "label": "Bonusové kostky obnovy",
-        "hint": "Dodatečné kostky obnovy budou přidané k bytosti nad to, co je již odvozeno z formule BV v jejím statbloku. Lze použít pouze při přivolání NP aktérů."
+        "hint": "Dodatečné kostky obnovy budou přidané k bytosti nad to, co je již odvozeno z formule BV v jejím statbloku. Lze použít pouze při vyvolání NP aktérů."
       },
       "healing": {
         "label": "Bonusové léčení",
@@ -3533,11 +3558,11 @@
     },
     "creatureSizes": {
       "label": "Velikosti bytosti",
-      "hint": "Přivolaná bytost a token budou změněny na tuto velikost. Pokud je vybráno více velikostí, hráč si bude moci při přivolání vybrat z těchto velikostí."
+      "hint": "Vyvolaná bytost a token budou změněny na tuto velikost. Pokud je vybráno více velikostí, hráč si bude moci při vyvolání vybrat z těchto velikostí."
     },
     "creatureTypes": {
       "label": "Typy bytost",
-      "hint": "Typ přivolané bytosti bude změněn na tento typ. Pokud je vybráno více typů, hráč si bude moci při přivolání vybrat z těchto typů."
+      "hint": "Typ vyvolané bytosti bude změněn na tento typ. Pokud je vybráno více typů, hráč si bude moci při vyvolání vybrat z těchto typů."
     },
     "match": {
       "ability": {
@@ -3546,19 +3571,26 @@
       },
       "attacks": {
         "label": "Srovnání útoků",
-        "hint": "Upraví hodnoty zásahu přivolané bytosti, aby odpovídaly těm od přivolavače."
+        "hint": "Upraví hodnoty zásahu vyvolané bytosti, aby odpovídaly vyvolavačovým."
       },
       "proficiency": {
         "label": "Srovnání zkušeností",
-        "hint": "Upraví zkušenost za přivolanou bytost tak, aby odpovídala té od přivolavače."
+        "hint": "Upraví zkušenost za vyvolanou bytost tak, aby odpovídala vyvolavačově."
       },
       "saves": {
         "label": "Srovnání záchran",
-        "hint": "Upraví SO záchranných hodů proti schopnostem přivolané bytosti tak, aby odpovídaly těm od přivolavače."
+        "hint": "Upraví SO záchranných hodů proti schopnostem vyvolané bytosti tak, aby odpovídaly vyvolavačovým."
       }
     },
     "profiles": {
-      "label": "Profily přivolání",
+      "count": {
+        "label": "Počet"
+      },
+      "cr": {
+        "label": "Nebezpečnost",
+        "abbr": "N",
+        "hint": "Maximální nebezpečnost vyvolané bytosti."
+      },
       "FIELDS": {
         "count": {
           "label": "Počet"
@@ -3566,7 +3598,7 @@
         "cr": {
           "label": "Nebezpečnost",
           "abbr": "N",
-          "hint": "Maximální nebezpečnost přivolané bytosti."
+          "hint": "Maximální nebezpečnost vyvolané bytosti."
         },
         "level": {
           "label": "Omezení úrovní",
@@ -3584,51 +3616,73 @@
         },
         "types": {
           "label": "Typy bytostí",
-          "hint": "Seznam typů bytostí, ze kterých může být přivolaná bytost vybrána."
+          "hint": "Seznam typů bytostí, ze kterých může být vyvolávaná bytost vybrána."
         },
         "uuid": {
           "label": "Propojená bytost"
         }
+      },
+      "label": "Profily vyvolání",
+      "level": {
+        "label": "Omezení úrovní",
+        "hint": "Rozsah úrovní potřebných pro použití tohoto profilu.",
+        "max": {
+          "label": "Maximální úroveň"
+        },
+        "min": {
+          "label": "Minimální úroveň"
+        }
+      },
+      "name": {
+        "label": "Zobrazený název",
+        "hint": "Název profilu zobrazovaný v dialogu použití."
+      },
+      "types": {
+        "label": "Typy bytostí",
+        "hint": "Seznam typů bytostí, ze kterých lze vyvolanou bytost vybrat."
+      },
+      "uuid": {
+        "label": "Propojenýá bytost"
       }
     },
     "summon": {
-      "label": "Detaily přivolání",
+      "label": "Detaily vyvolání",
       "identifier": {
         "label": "Identifikátor povolání",
         "hint": "Identifikátor použitý k určení, zda by měla být použita úroveň postavy, nebo konkrétní úroveň povolání pro omezení úrovně profilu."
       },
       "mode": {
         "label": "Režim",
-        "hint": "Nastavuje, jak budou určeny přivolané bytosti.",
+        "hint": "Nastavuje, jak budou určeny vyvolané bytosti.",
         "CR": "Podle nebezpečnosti a typu",
         "Direct": "Podle přímého odkazu"
       },
       "prompt": {
-        "label": "Výzva k přivolání",
-        "hint": "Měl by být hráč vyzván k umístění přivolaných bytostí? Hráči stále mohou přivolávat z karty v chatu, pokud je výzva zakázána."
+        "label": "Výzva k vyvolání",
+        "hint": "Měl by být hráč vyzván k umístění vyvolaných bytostí? Hráči stále mohou vyvolávat z karty v chatu, pokud je výzva zakázána."
       }
     }
   },
   "SECTIONS": {
     "Changes": "Změny",
     "Profiles": "Profily",
-    "Summoning": "Přivolání"
+    "Summoning": "Vyvolání"
   },
   "Action": {
-    "Place": "Umístit přivolané",
-    "Summon": "Přivolat",
-    "View": "Zobrazit přivolané"
+    "Place": "Umístit vyvolané",
+    "Summon": "Vyvolat",
+    "View": "Zobrazit vyvolané"
   },
   "CreatureChanges": {
     "Label": "Změny bytosti",
-    "Hint": "Změny, které budou provedeny u přivolané bytosti. Jakékoli @ odkazy použité v následujících vzorcích budou založeny na statistikách přivolavače. Statistiky přivolaných bytostí mohou být odkazovány pomocí @summon (např. @summon.attributes.hd.max pro odkaz na počet kostek obnovy bytosti)."
+    "Hint": "Změny, které budou provedeny u vyvolané bytosti. Jakékoli a odkazy použité v následujících vzorcích budou založeny na statistikách vyvolavače. Statistiky vyvolaných bytostí mohou být odkazovány pomocí @summon (např. @summon.attributes.hd.max pro odkaz na počet kostek obnovy bytosti)."
   },
   "ItemChanges": {
     "Label": "Změny položek",
-    "Hint": "Změny provedené na položkách povolané bytosti."
+    "Hint": "Změny provedené u položkek vyvolané bytosti."
   },
   "Profile": {
-    "Label": "Profil přivolání",
+    "Label": "Profil vyvolání",
     "Action": {
       "Create": "Vytvořit profil",
       "Delete": "Odstranit profil"
@@ -3636,20 +3690,20 @@
     "ChallengeRatingLabel": "Nebezpečnost {cr} nebo nižší",
     "DropHint": "Bytost přetáhnout sem",
     "Empty": "Kliknout na <i class=\"fas fa-plus\"></i> tlačítko výše pro vytvoření profilu.",
-    "EmptyDrop": "Kliknout na <i class=\"fas fa-plus\"></i> tlačítko výšee pro vytvoření profilu, nebo přetáhni bytost, abys ji sem přivolal(a)."
+    "EmptyDrop": "Kliknout na <i class=\"fas fa-plus\"></i> tlačítko výše pro vytvoření profilu, nebo přetáhni bytost, aby byla vyvolána."
   },
   "Warning": {
-    "CreateActor": "Pro přivolání přímo z kompendia musíš mít oprávnění 'Vytváření nových aktérů'.",
-    "CRV11": "Přivolání založené na nebezpečnosti bytosti funguje pouze ve Foundry V12 nebo novější.",
-    "NoActor": "Aktér s UUID '{uuid}' nebyl pro přivolání nalezen.",
-    "NoOwnership": "Aby mohl být '{actor}' přivolán, musíš jej vlastnit.",
-    "NoProfile": "Nelze najít profil přivolání {profileId} u '{item}'.",
-    "Wildcard": "Aby mohly být přivolávány bytosti s přiřazenou ilustrací, musíš mít oprávnění 'Používání prohlížeče souborů'."
+    "CreateActor": "Pro vyvolání přímo z kompendia musíš mít oprávnění 'Vytváření nových aktérů'.",
+    "CRV11": "Vyvolání založené na nebezpečnosti bytosti funguje pouze ve Foundry V12 nebo novější.",
+    "NoActor": "Aktér s UUID '{uuid}' nebyl pro vyvolání nalezen.",
+    "NoOwnership": "Aby mohl být '{actor}' vyvolán, musíš jej vlastnit.",
+    "NoProfile": "Nelze najít profil vyvolání {profileId} u '{item}'.",
+    "Wildcard": "Aby mohly být vyvolávány bytosti s přiřazenou ilustrací, musíš mít oprávnění 'Používání prohlížeče souborů'."
   }
 },
 
 "DND5E.Summoning": {
-  "Label": "Přivolání"
+  "Label": "Vyvolání"
 },
 "DND5E.Supply": "Zásoby",
 "DND5E.Suppressed": "Potlačeno",
@@ -3659,7 +3713,7 @@
     "PlaceTemplate": "Umístění měřící šablony"
   },
   "Count": {
-    "Any": "Jakákoliv",
+    "Any": "Různé",
     "Every": "Všechny"
   },
   "FIELDS": {
@@ -4549,7 +4603,7 @@
     "ItemHint": "Sem přetáhni povolání",
     "NoValidClass": "Nebylo vybráno žádné platné povolání, pro přidání povolání stiskni tlačítko Upravit.",
     "OptionalFeaturesCaption": "Volitelné schopnosti povolání",
-    "OptionalFeaturesDescription": "Následující sekce obsahuje volitelné schopnosti {class}. Tyto schopnosti nejsou přidělovány automaticky a můžeš si dle uvážení GM vybrat jednu, několik, nebo všechny.",
+    "OptionalFeaturesDescription": "Následující sekce obsahuje volitelné schopnosti {class}. Tyto schopnosti nejsou přidělovány automaticky a můžeš si dle uvážení PJ vybrat jednu, několik, nebo všechny.",
     "SpellSlotLevel": "Stupeň pozice",
     "SpellSlots": "Pozice kouzel",
     "SpellSlotsPerSpellLevel": "—pozice kouzla dle stupně kouzla—",
@@ -4578,7 +4632,7 @@
       "None": "Neseskupovat",
       "School": "Podle školy"
     },
-    "IdentifierHint": "Identifikátor by měl odpovídat tomu, který je definován v souvisejícím dokumentu, pokud je to relevantní. Například při vytváření seznamu kouzel pro kouzelníka by měl být identifikátor 'wizard'.",
+    "IdentifierHint": "Identifikátor by měl odpovídat tomu, který je definován v souvisejícím dokumentu, pokud je relevantní. Například při vytváření seznamu kouzel pro kouzelníka by měl být identifikátor 'wizard'.",
     "Type": {
       "Label": "Typ seznamu kouzel",
       "Other": "Nezařazeno"
@@ -4603,11 +4657,11 @@
       },
       "style": {
         "label": "Styl",
-        "hint": "Vynutit styl stránky na moderní, či tradiční formátování, místo toho, co byl specifikován oborem."
+        "hint": "Vynutit styl stránky jako moderní či tradiční formátování, namísto toho, co bylo specifikováno oborem."
       }
     },
-    "ItemHint": "Sem přetáhni obor",
-    "NoValidSubclass": "Nebyl vybrán žádný platný obor, pro přidání oboru stiskni tlačítko Upravit."
+    "ItemHint": "Obor přetáhni sem",
+    "NoValidSubclass": "Nebyl vybrán žádný platný obor, pro přidání oboru klikni na tlačítko Upravit."
   }
 },
 
@@ -4640,15 +4694,15 @@
 "SETTINGS.5eGridAlignedSquareTemplatesN": "Čtvercové šablony zarovnané na mřížku",
 "SETTINGS.DND5E": {
   "ALLOWSUMMONING": {
-    "Name": "Povolení přivolání",
-    "Hint": "Povolí hráčům používat schopnosti přivolávání k přivolávání aktérů. Aby to fungovalo, musí mít hráči také základní oprávnění pro vytváření tokenů."
+    "Name": "Povolení vyvolání",
+    "Hint": "Povolí hráčům používat schopnosti vyvolávání k vyvolání aktérů. Aby to fungovalo, musí mít hráči také základní oprávnění pro vytváření tokenů."
   },
   "BLOODIED": {
     "Name": "Stav krvácející",
-    "Hint": "Nastaví, zda je stav krvácející sledován automaticky a jeho viditelnost.",
+    "Hint": "Nastaví, zda je stav ´krvácející´ sledován automaticky a jeho viditelnost.",
     "All": "Zobrazit pro spojence i nepřátele",
     "Player": "Zobrazit pouze pro spojence",
-    "None": "Nikdy nezobrazovat"
+    "None": "Nezobrazovat"
   },
   "COLLAPSETRAYS": {
     "Name": "Skrývání boxů v chatu",
