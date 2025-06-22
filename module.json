@@ -1,10 +1,10 @@
 {
   "id": "czechtranslationdnd",
   "title": "CzechTranslationDnD",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
-    "minimum": "12.331",
-    "verified": "12.331"
+    "minimum": "13.345",
+    "verified": "13.345"
   },
   "description": "Český překlad DnD5e.",
   "authors": [
