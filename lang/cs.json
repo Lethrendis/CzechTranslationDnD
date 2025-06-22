@@ -20,6 +20,7 @@
 "TYPES.ActiveEffect.enchantmentPl": "Očarování",
 
 "TYPES.ChatMessage": {
+  "request": "Zpráva o požadavku",
   "rest": "Zpráva o odpočinku",
   "turn": "Zpráva o bojovém tahu"
 },
@@ -52,6 +53,10 @@
 "TYPES.Item.toolPl": "Nástroje",
 "TYPES.Item.weapon": "Zbraň",
 "TYPES.Item.weaponPl": "Zbraně",
+
+"TYPES.RegionBehavior": {
+  "dnd5e.rotateArea": "Otočení oblasti"
+},
 
 "DND5E.title": "Dungeons & Dragons Pátá edice",
 "DND5E.AbbreviationCR": "N",
@@ -1114,6 +1119,13 @@
   "Activities": "Aktivity",
   "Deltas": {
     "Recovery": "Obnova"
+      },
+  "REQUEST": {
+    "Action": {
+      "Handle": "Vypořádat požadavek"
+    },
+    "Complete": "Požadavek splněn",
+    "PartyMembers": "Členové skupiny"
   },
   "TURN": {
     "NoCombatant": "Bojovník již neexistuje!"
@@ -1178,6 +1190,9 @@
         "label": "Primární vlastnost",
         "hint": "Vlastnost, kterou toto povolání využívá nejvíce. Používá se k určení omezení pro multipovolání."
       }
+    },
+    "properties": {
+      "label": "Parametry povolání"
     }
   }
 },
@@ -2402,7 +2417,7 @@
     }
   },
   "Warning": {
-    "NoActivity": "Propojená aktivita musí být nakonfigurována před použitím aktivity Pokročit."
+    "NoActivity": "Propojená aktivita musí být nastavena ještě před použitím aktivity Pokročit."
   }
 },
 
@@ -2432,7 +2447,7 @@
 "DND5E.FeatureAttack": "Útok schopností",
 "DND5E.FeaturePassive": "Pasivní schopnosti",
 "DND5E.FeatureRechargeOn": "Obnovení při",
-"DND5E.FeatureRechargeResult": "Výsledek 1d6",
+"DND5E.FeatureRechargeResult": "Výsledek 1k6",
 "DND5E.FeatureSearch": "Hledat schopnosti",
 "DND5E.FeatureUsage": "Použití schopností",
 "DND5E.Features": "Schopnosti",
@@ -2464,11 +2479,9 @@
 "DND5E.FlagsPowerfulBuild": "Mohutně stavěný",
 "DND5E.FlagsPowerfulBuildHint": "Zajišťuje zvýšenou nosnost.",
 "DND5E.FlagsElvenAccuracy": "Elfí přesnost",
-"DND5E.FlagsElvenAccuracyHint": "Když máš Výhodu, můžeš na Obratnost, Inteligenci, Moudrost, nebo Charisma hodit jednou d20 navíc.",
+"DND5E.FlagsElvenAccuracyHint": "Když máš Výhodu, můžeš na Obratnost, Inteligenci, Moudrost, nebo Charisma hodit jednou k20 navíc.",
 "DND5E.FlagsHalflingLucky": "Štěstí",
-"DND5E.FlagsHalflingLuckyHint": "Přehoz jedničky když se hází d20.",
-"DND5E.FlagsInitiativeAdv": "Výhoda na iniciativu",
-"DND5E.FlagsInitiativeAdvHint": "Poskytováno odbornostmi či magickými předměty.",
+"DND5E.FlagsHalflingLuckyHint": "Přehoz jedničky při hodu k20.",
 "DND5E.FlagsAlert": "Hlídač",
 "DND5E.FlagsAlertHint": "Zdatnost v initiativě.",
 "DND5E.FlagsAlertHintLegacy": "Poskytuje +5 k initiativě.",
@@ -2772,6 +2785,7 @@
     "Reload": "Přebíjecí",
     "Returning": "Vracející se",
     "Ritual": "Rituál",
+    "Sidekick": "Parťák",
     "Silvered": "Postříbřená",
     "Somatic": "Pohybová",
     "Special": "Specialní",
@@ -3070,6 +3084,75 @@
 "DND5E.RechargeShort": "Obnovení po krátkém i důkladném odpočinku",
 "DND5E.Recovery": "Obnova",
 "DND5E.RecoveryFormula": "Vzorec obnovy",
+
+"DND5E.REGIONBEHAVIORS": {
+  "ROTATEAREA": {
+    "Action": {
+      "AddPosition": "Přidat pozici",
+      "DeletePosition": "Odstranit pozici",
+      "RotateToPosition": "Otočit na pozici"
+    },
+    "DirectionMode": {
+      "Clockwise": "Po směru hodinových ručiček",
+      "CounterClockwise": "Proti směru hodinových ručiček",
+      "Longest": "Nejdelší",
+      "Shortest": "Nejkratší"
+    },
+    "FIELDS": {
+      "directionMode": {
+        "label": "Režim směru",
+        "hint": "Určuje, jakým směrem se má při přechodu na další pozici provést rotace."
+      },
+      "lights": {
+        "ids": {
+          "label": "Světla"
+        }
+      },
+      "positions": {
+        "label": "Pozice",
+        "element": {
+          "angle": {
+            "label": "Úhel"
+          }
+        }
+      },
+      "sounds": {
+        "ids": {
+          "label": "Zvuky prostředí"
+        }
+      },
+      "tiles": {
+        "ids": {
+          "label": "Dlaždice"
+        }
+      },
+      "time": {
+        "mode": {
+          "label": "Režim rychlosti",
+          "hint": "Určení rychlosti rotace podle času rotace – buď vždy stejná bez ohledu na vzdálenost (pevná), nebo závislá na úhlu otočení (proměnná)."
+        },
+        "value": {
+          "label": "Čas rotace",
+          "hint": "Čas v milisekundách potřebný k otočení na další pozici (v pevném režimu) nebo k otočení o 90˚ (v proměnném režimu)."
+        }
+      },
+      "walls": {
+        "ids": {
+          "label": "Stěny"
+        },
+        "link": {
+          "label": "Propojit stěny",
+          "hint": "Otočí všechny úseky stěn připojené k těm určeným."
+        }
+      }
+    },
+    "SpeedMode": {
+      "Fixed": "Pevná (celkový čas rotace)",
+      "Variable": "Proměnná (čas na otočení o 90˚)"
+    }
+  }
+},
+
 "DND5E.Remaining": "Zbývá",
 "DND5E.RequiredMaterials": "Požadované suroviny",
 "DND5E.Requirements": "Požadavky",
@@ -3113,7 +3196,21 @@
   },
   "NewDay": {
     "Hint": "Obnoví schopnosti s omezeným použitím, které se nabíjejí za soumraku, úsvitu, nebo na začátku nového dne.",
-    "Label": "Nový den"
+        "Label": "Nový den"
+  },
+  "RecoverTempHP": {
+    "Label": "Odebrat dočasné BV"
+  },
+  "RecoverTempMaxHP": {
+    "Hint": "Odebere jakékoli úpravy maximálních bodů výdrže postavy.",
+    "Label": "Obnovení max. BV"
+  },
+  "Request": {
+    "AutoRest": {
+      "Hint": "U vybraných postav družiny namísto odeslání požadavků hráčům automaticky provede odpočinek.",
+      "Label": "Automatický odpočinek"
+    },
+    "Label": "Požadavek na odpočinek"
   },
   "Short": {
     "Abbreviation": "K.O.",
@@ -3252,22 +3349,23 @@
 "DND5E.SenseUnits": "Jednotky",
 "DND5E.SenseSpecial": "Speciální smysly",
 "DND5E.Shape": "Tvar",
-"DND5E.SheetClassCharacter": "Deník postavy modulu DnD5e",
-"DND5E.SheetClassCharacterLegacy": "Starý deník postavy modulu DnD5e",
-"DND5E.SheetClassClassSummary": "Deník shrnutí povolání modulu DnD5e",
-"DND5E.SheetClassContainer": "Deník kontejnetu modulu DnD5e",
-"DND5E.SheetClassContainerLegacy": "Starý deník kontejneru modulu DnD5e",
-"DND5E.SheetClassGroup": "Deník skupiny modulu DnD5e",
-"DND5E.SheetClassItem": "Deník položky modulu DnD5e",
-"DND5E.SheetClassItemLegacy": "Starý deník položky modulu DnD5e",
-"DND5E.SheetClassJournalEntry": "Deník záznamů modulu DnD5e",
-"DND5E.SheetClassMapLocation": "Deník mapy modulu DnD5e",
-"DND5E.SheetClassNPC": "Deník NP modulu DnD5e",
-"DND5E.SheetClassNPCLegacy": "Starý deník NP modulu DnD5e",
-"DND5E.SheetClassRule": "Deník pravidel modulu DnD5e",
-"DND5E.SheetClassSpellList": "Deník seznamu kouzel modulu DnD5e",
-"DND5E.SheetClassToken": "Deník tokenu modulu DnD5e",
-"DND5E.SheetClassVehicle": "Deník dopravního prostředku modulu DnD5e",
+
+"DND5E.SheetClass": {
+  "Character": "Výchozí deník postavy 5e",
+  "ClassSummary": "Výchozí přehled povolání 5e",
+  "Container": "Výchozí deník kontejneru 5e",
+  "Group": "Výchozí deník skupiny 5e",
+  "Item": "Výchozí deník položky 5e",
+  "JournalEntry": "Výchozí deník záznamu 5e",
+  "MapLocation": "Výchozí deník umístění na mapě 5e",
+  "NPC": "Výchozí deník NP 5e",
+  "RotateArea": "Výchozí deník otáčení oblasti 5e",
+  "Rule": "Výchozí deník pravidel 5e",
+  "SpellList": "Výchozí deník seznamu kouzel 5e",
+  "Token": "Výchozí deník tokenu 5e",
+  "Vehicle": "Výchozí deník dopravního prostředku 5e"
+},
+
 "DND5E.SheetModeEdit": "Upravit",
 "DND5E.SheetModePlay": "Hrát",
 "DND5E.SavingThrow": "Záchranný hod",
