@@ -119,9 +119,9 @@
 "DND5E.AbilityUseUse": "Použít vlastnost",
 "DND5E.AbilityUseConfig": "Nastavení použití",
 "DND5E.AbilityBonuses": "Bonusy vlastnosti",
-"DND5E.AbilityConfigure": "Nastavit {ability}",
+"DND5E.AbilityConfigure": "Nastavení {ability}",
 "DND5E.AbilityConfigureTitle": "Nastavení záchranných hodů a ověření {ability}",
-"DND5E.AbilitySaveConfigure": "Záchranné hody na {ability}",
+"DND5E.AbilitySaveConfigure": "Záchrany na {ability}",
 "DND5E.AbilityCheckConfigure": "Ověření {ability}",
 "DND5E.AbilityCheckConfigurationHint": "Nastaví bonusy k ověřením.",
 "DND5E.AbilityConfigurationHint": "Nastavení vlastností záchranných hodů, bonusů záchranných hodů a bonusů ověření.",
@@ -662,7 +662,7 @@
         "Label": "Vylepšení zdatnosti"
       }
     },
-    "TraitType": "Txpy rysu",
+    "TraitType": "Typy rysu",
     "Title": "Rysy"
   }
 },
@@ -869,7 +869,7 @@
   "NoDestinations": "Není dostupný žádný cíl",
   "NoPrimaryParty": "Není nastavená Žádná primární skupina, zobrazují se postavy přiřazené hráčům.",
   "NotGMError": "Příkaz /award je dostupný pouze pro PJ.",
-  "UnrecognizedWarning": "Nepodařilo se zpracovat {commands}. Příkaz /award by měl být použit s hodnotami XP a mincí, např. '/award 10zl 50xp'."
+  "UnrecognizedWarning": "Nepodařilo se zpracovat {commands}. Příkaz /award by měl být použit s hodnotami ZK a mincí, např. '/award 10zl 50XP'."
 },
 "DND5E.Background": "Zázemí",
 "DND5E.BackgroundAdd": "Přidat zázemí",
@@ -896,8 +896,8 @@
     "Title": "Útok na pevnost"
   },
   "Button": {
-    "Label": "Zobrazovat tlačítko kola pevnosti?",
-    "Hint": "Zobrazí tlačítko pro odehrání kol pevnosti v hlavním rozhraní hry."
+    "Label": "Zobrazovat kola pevnosti?",
+    "Hint": "Zobrazí tlačítko pro odehrání kola pevnosti v hlavním rozhraní hry."
   },
   "Configuration": {
     "Name": "Pevnosti",
@@ -906,11 +906,11 @@
   },
   "Confirm": "Odehrát jedno kolo pevnosti?",
   "Duration": {
-    "Label": "Délka jednoho kola pevnosti (dny)"
+    "Label": "Délka kola pevnosti (dny)"
   },
   "Enabled": {
     "Label": "Povolit fungování pevností?",
-    "Hint": "Když je zaškrtnuto, postavy hráčů budou mít po dosažení 5. úrovně přístup k nové záložce Pevnost na svých denících. Budou tedy moci budovat zařízení a vydávat jim příkazy."
+    "Hint": "Když je zaškrtnuto, postavy hráčů budou mít po dosažení 5. úrovně přístup k záložce Pevnost ve svých denících. Budou tedy moci budovat zařízení a vydávat jim příkazy."
   },
   "Gold": {
     "Claim": "Nárokovat příjem",
@@ -953,7 +953,7 @@
           "label": "Celkový bonus k ověření vlastnosti"  
         },  
         "save": {  
-          "label": "Celkový bonus k záchrannému hodu"  
+          "label": "Celkový bonus k záchraně"  
         },  
         "skill": {  
           "label": "Celkový bonus k ověření dovednosti"  
@@ -1205,7 +1205,7 @@
 "DND5E.ClassMakeOriginalHint": "První povolání, které postava získala. Je to používané k určení určitých rysů povolání při multipovolání.",
 "DND5E.ClassName": "Název povolání",
 "DND5E.ClassOriginal": "Původní povolání",
-"DND5E.ClassSaves": "Záchranné hody",
+"DND5E.ClassSaves": "Záchrany",
 "DND5E.Confirm": "Potvrdit",
 
 "DND5E.COMBAT": {
@@ -1790,7 +1790,7 @@
 "DND5E.DeathSave": "Záchrany před smrtí",
 "DND5E.DeathSaveBonus": "Bunus záchran před smrtí",
 "DND5E.DeathSaveConfigure": "Nastavení záchran před smrtí",
-"DND5E.DeathSaveCriticalSuccess": "{name} kriticky uspěl/a v záchranném hodu a získal/a 1 bod výdrže!",
+"DND5E.DeathSaveCriticalSuccess": "{name} kriticky uspěl/a v záchraně a získal/a 1 bod výdrže!",
 "DND5E.DeathSaveHide": "Skrýt záchrany před smrtí",
 "DND5E.DeathSaveShow": "Zobrazit záchrany před smrtí",
 "DND5E.DeathSaveSuccess": "{name} přežil/a 3 úspěšné záchrany před smrtí a je nyní stabilní!",
@@ -2056,20 +2056,20 @@
 "DND5E.ExhaustionLevel": "Úroveň vyčerpání {n}",
 
 "DND5E.ExperiencePoints": {
-  "Abbreviation": "XP",
+  "Abbreviation": "ZK",
   "Boons": {
     "one": "{number} dar",
     "other": "{number} darů"
   },
-  "Current": "Aktuální XP",
-  "Format": "{value} XP",
+  "Current": "Aktuální ZK",
+  "Format": "{value} ZK",
   "Label": "Body zkušenosti",
   "Progress": "Postup na další úroveň",
   "StatBlock": {
-    "Standard": "XP {value}",
-    "Lair": "XP {value}, nebo XP v doupěti {lair}"
+    "Standard": "ZK {value}",
+    "Lair": "ZK {value}, nebo ZK v doupěti {lair}"
   },
-  "Value": "Hodnota XP"
+  "Value": "Hodnota ZK"
 },
 
 "DND5E.Expertise": "Kvalifikace",
@@ -2678,7 +2678,7 @@
 "DND5E.InitiativeRoll": "Hod na iniciativu",
 "DND5E.InitiativeConfig": "Nastavit iniciativu",
 "DND5E.InitiativeConfigHint": "Nastaví opravy a bonusy k iniciativě vztahující se k této postavě.",
-"DND5E.Inspiration": "Inspirace",
+"DND5E.Inspiration": "Hrdinská inspirace",
 "DND5E.Inventory": "Inventář",
 "DND5E.InventorySearch": "Hledat v inventáři",
 "DND5E.Issues": "Problémy",
@@ -2956,7 +2956,7 @@
   "FIELDS": {
     "traits": {
       "important": {
-        "hint": "Důležité NP sledují záchranné hody proti smrti, kostky obnovy a loajalitu (pokud je povolena). Bez ohledu na toto nastavení je za důležitou považována jakákoli NP s úrovněmi v povolání.",  
+        "hint": "Důležité NP sledují záchrany proti smrti, kostky obnovy a Loajalitu (pokud je povolena). Bez ohledu na toto nastavení je za důležitou považována jakákoli NP s úrovněmi v povolání.",  
         "label": "Důležitá NP" 
       }
     }
@@ -3296,7 +3296,7 @@
     "effects": {
       "onSave": {
         "label": "Vždy aplikovat",
-        "hint": "Tento efekt bude vždy aplikován, i když cíl uspěje ve svém záchranném hodu."
+        "hint": "Tento efekt bude vždy aplikován, i když cíl uspěje v záchraně."
       }
     },
     "save": {
@@ -3323,7 +3323,7 @@
   "OnSave": "Při záchraně"
 },
 
-"DND5E.SaveBonus": "Bonus při záchranném hodu",
+"DND5E.SaveBonus": "Bonus k záchranám",
 "DND5E.SaveGlobalBonusHint": "Tento bonus se vztahuje na všechny záchrany provedené tímto aktérem.",
 "DND5E.Scroll": {
   "CreateFrom": "Vytvořit svitek z {spell}",
@@ -3369,8 +3369,8 @@
 "DND5E.SheetModeEdit": "Upravit",
 "DND5E.SheetModePlay": "Hrát",
 "DND5E.SavingThrow": "Záchranný hod",
-"DND5E.SavingThrowDC": "SO {dc} {ability} záchranného hodu",
-"DND5E.SavingThrowRoll": "Hodit záchranný hod na {ability}",
+"DND5E.SavingThrowDC": "SO {dc} {ability} záchrany",
+"DND5E.SavingThrowRoll": "Hodit záchranu na {ability}",
 "DND5E.SavingThrowShort": "Záchrana",
 "DND5E.SaveDC": "SO {dc} {ability}",
 "DND5E.SavePromptTitle": "Záchranný hod na {ability}",
@@ -3654,7 +3654,7 @@
       },
       "saveDamage": {
         "label": "Bonusové zranění při záchranách",
-        "hint": "Dodatečné zranění způsobované schopnostmi bytosti, které vyžadují záchranné hody."
+        "hint": "Dodatečné zranění způsobované schopnostmi bytosti vyžadující záchrany."
       }
     },
     "creatureSizes": {
@@ -4115,7 +4115,7 @@
 "DND5E.TraitLanguagesPlural.one": "Jazyk",
 "DND5E.TraitLanguagesPlural.other": "Jazyky",
 "DND5E.TraitSave": "Aktualizovat",
-"DND5E.TraitSavesPlural.one": "Zdatnost v záchranném hodu",
+"DND5E.TraitSavesPlural.one": "Zdatnost v záchranách",
 "DND5E.TraitSavesPlural.other": "Zdatnosti v záchranných hodech",
 "DND5E.TraitSelectorSpecial": "Speciální (Oddělovat středníkem)",
 "DND5E.TraitSkillsPlural.one": "Zdatnost v dovednosti",
@@ -4999,7 +4999,7 @@
       "Name": "Stálá hodnota iniciativy",
       "Hint": "Použije stálou hodnotu iniciativy bytosti (10 + bonus) místo hodu na iniciativu.",
       "All": "Používat stálou hodnotu pro všechny",
-      "None": "Na iniciativu vždy házet",
+      "None": "Na iniciativu házet vždy",
       "NPCs": "Používat stálou hodnotu pro NP hrané PJ"   
     }
   },
@@ -5042,7 +5042,7 @@
     "AutoRecharge": {  
       "Name": "Obnova vlastností",  
       "Hint": "Nastavení automatických hodů na obnovu vlastností NP na začátku jejího tahu.",  
-      "No": "Neobnovovat automaticky",  
+      "No": "Automaticky neobnovovat",  
       "Silent": "Obnovovat bez zobrazení zprávy v chatu",  
       "Yes": "Obnovovat a zobrazovat zprávu v chatu"  
     },  
@@ -5061,11 +5061,11 @@
   "PERMISSIONS": {
     "AllowSummoning": {
       "Hint": "Povolit hráčům používat přivolávací schopnosti k přivolání aktérů. Aby to fungovalo, musí mít hráči i základní oprávnění vytvářet tokeny.",
-      "Name": "Povolit přivolávání"
+      "Name": "Povolit přivolávání?"
     },
     "AllowTransformation": {
       "Hint": "Povolit hráčům transformovat své vlastněné postavy. Aby to fungovalo, musí mít hráči také základní oprávnění vytvářet aktéry.",
-      "Name": "Povolit transformace"
+      "Name": "Povolit transformace?"
     }
   },
   "RULESVERSION": {
@@ -5100,7 +5100,7 @@
     "LevelingMode": {  
       "Hint": "Určí, jak hráči získávají nové úrovně.",  
       "Name": "Režim postupu na úrovně",  
-      "NoXP": "Postup na úrovně bez XP",  
+      "NoXP": "Postup na úrovně bez ZK",  
       "XP": "Body zkušeností",  
       "XPBoons": "Body zkušeností s epickými dary"  
     },  
@@ -5131,7 +5131,7 @@
       "Hint": "Ovládá viditelnost výsledků hodů na útok v chatových kartách pro hráče.",
       "All": "Zobrazovat výsledky a OČ cíle",
       "HideAC": "Zobrazovat pouze výsledky",
-      "None": "Skrýt vše"
+      "None": "Skrývat vše"
     },
     "Challenge": {
       "All": "Zobrazovat vše",
