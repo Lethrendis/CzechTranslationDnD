@@ -1,5 +1,5 @@
 
-# CzechDnD5.0.4
+# CzechDnD5e
 
 Czech translation of DnD5e version 5.0.4.
 
