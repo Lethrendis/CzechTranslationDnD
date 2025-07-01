@@ -1352,7 +1352,7 @@
 "DND5E.ConsumeTarget": "Cíle ke spotřebování",
 "DND5E.ConsumeType": "Kategorie spotřeby",
 "DND5E.ConsumeAmmunition": "Munice",
-"DND5E.ConsumeAttribute": "Attribut",
+"DND5E.ConsumeAttribute": "Atribut",
 "DND5E.ConsumeHitDice": "Kostky obnovy",
 "DND5E.ConsumeHitDiceLargest": "Největší dostupná",
 "DND5E.ConsumeHitDiceLargestLong": "Nejvyšší dostupná kostka obnovy",
@@ -1515,7 +1515,7 @@
       "Warning": "použití aktivity {activity} položky {item}"
     },
     "Attribute": {
-      "Label": "Attribut",
+      "Label": "Atribut",
       "PromptDecrease": "Spotřebovat atribut?",
       "PromptIncrease": "Obnovit atribut?",
       "PromptHintDecrease": "Sníží <code>{attribute}</code> o <strong>{cost}</strong> (aktuálně {current}).",
