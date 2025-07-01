@@ -781,8 +781,8 @@
         }
       },
       "flat": {
-        "label": "Pevně stanovený zásah",
-        "hint": "Ignoruje opravy vlastností, odborností i jiné bonusy a používá pouze bonus definovaný činností."
+        "label": "Pevně stanovit zásah?",
+        "hint": "Bude ignorovat opravy vlastností, odborností i jiné bonusy a použíije pouze bonus definovaný činností."
       },
       "type": {
         "label": "Typ útoku",
@@ -805,7 +805,7 @@
         }
       },
       "includeBase": {
-        "label": "Zahrnout základní zranění",
+        "label": "Zahrnovat základní zranění?",
         "hint": "Zahrne základní zranění položky k jakýmkoli dalším zraněním."
       },
       "parts": {
@@ -1443,7 +1443,7 @@
         "abbr": "Škálování",
         "label": "Škálování spotřeby",
         "allowed": {
-          "label": "Povolit škálování",
+          "label": "Povolit škálování?",
           "hint": "Může být aktivita, která není kouzlem, aktivována na vyšších stupních?"
         },
         "max": {
@@ -1844,8 +1844,8 @@
     "duration": {
       "label": "Doba trvání",
       "concentration": {
-        "label": "Soustředění",
-        "hint": "Bytost musí udržovat soustředění, pokud je aktivní."
+        "label": "Vyžaduje soustředění?",
+        "hint": "Při zaškrtnutí musí bytost po aktivaci udržovat soustředění."
       },
       "override": {
         "label": "Přepsání doby trvání",
@@ -3814,8 +3814,8 @@
         "hint": "Při používání této aktivity budou použity tyto hodnoty cíle namísto hodnot položky."
       },
       "prompt": {
-        "label": "Výzva pro použití měřící šablony",
-        "hint": "Má být hráč vyzván k použití měřicí šablony? I když je výzva zakázána, hráči budou stále moci umístit šablony z karty v chatu."
+        "label": "Používat měřící šablonu?",
+        "hint": "Má být hráč vyzván k použití měřicí šablony? I když je výzva zakázána, hráči budou stále moci umísťovat šablony z karty v chatu."
       },
       "template": {
         "label": "Oblast efektu",
