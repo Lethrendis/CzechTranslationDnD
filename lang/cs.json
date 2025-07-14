@@ -771,7 +771,7 @@
         "hint": "Vlastnost použitá při útoku a určování zranění. Vzorec se používá pomocí @mod."
       },
       "bonus": {
-        "label": "Bonus při zásahu",
+        "label": "Bonus k zásahu",
         "hint": "Bonus přidaný k hodu na zásah."
       },
       "critical": {
@@ -781,7 +781,7 @@
         }
       },
       "flat": {
-        "label": "Pevně stanovit zásah?",
+        "label": "Stanovit zásah pevně?",
         "hint": "Bude ignorovat opravy vlastností, odborností i jiné bonusy a použíije pouze bonus definovaný činností."
       },
       "type": {
@@ -4304,14 +4304,14 @@
         "Label": "Zdatnostní bonus?"
       },
       "Saves": {
-        "Label": "Zdatnosti v záchranách?"
+        "Label": "Zdat. v záchranách?"
       },
       "Self": {
         "Hint": "Změní se jen portrét a vzhled tokenu, ostatní bude ignorováno.",
         "Label": "Vzhled?"
       },
       "Skills": {
-        "Label": "Dovednostní zdatnosti?"
+        "Label": "Zdat. v dovednostech?"
       },
       "Spells": {
         "Label": "Kouzla?"
@@ -4322,10 +4322,10 @@
     },
     "Merge": {
       "Saves": {
-        "Label": "Zdatnosti v záchranách?"
+        "Label": "Zdat. v záchranách?"
       },
       "Skills": {
-        "Label": "Dovednostní zdatnosti?"
+        "Label": "Zdat. v dovednostech?"
       }
     }
   },
@@ -4335,7 +4335,7 @@
     "NoOwnership": "K transformaci tohoto aktéra nemáš oprávnění.",
     "NoPermission": "Hráčům nebylo uděleno oprávnění k transformaci.",
     "OriginalActor": "Nebyl nalezen původní aktér s ID '{reference}'.",
-    "SourceActor": "Nebyl nalezen aktér, na kterého se transformovat."
+    "SourceActor": "Nebyl nalezen aktér, do kterého se transformovat."
   }
 },
 
