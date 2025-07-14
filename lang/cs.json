@@ -4278,7 +4278,7 @@
     },
     "Keep": {
       "Biography": {
-        "Label": "Biografii?"
+        "Label": "Záznamy v deníku?"
       },
       "CreatureType": {
         "Label": "Typ bytosti?"
@@ -4311,13 +4311,13 @@
         "Label": "Vzhled?"
       },
       "Skills": {
-        "Label": "Zdatnosti v dovednostech?"
+        "Label": "Dovednostní zdatnosti?"
       },
       "Spells": {
-        "Label": "Kouzla"
+        "Label": "Kouzla?"
       },
       "Vision": {
-        "Label": "Typy vidění:"
+        "Label": "Typy vidění?"
       }
     },
     "Merge": {
@@ -4325,7 +4325,7 @@
         "Label": "Zdatnosti v záchranách?"
       },
       "Skills": {
-        "Label": "Zdatnosti v dovednostech?"
+        "Label": "Dovednostní zdatnosti?"
       }
     }
   },
