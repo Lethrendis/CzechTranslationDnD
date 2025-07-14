@@ -4131,7 +4131,7 @@
 
 "DND5E.TRANSFORM": {
   "Action": {
-    "Restore": "Obnovit transformaci",
+    "Restore": "Zrušit transformaci",
     "Transform": "Transformovat"
   },
   "Dialog": {
@@ -4143,7 +4143,7 @@
         "cr": {
           "label": "Nebezpečnost",
           "abbr": "N",
-          "hint": "Maximální N zdrojové bytosti."
+          "hint": "Maximální Nebezpečnost zdrojové bytosti."
         },
         "level": {
           "label": "Omezení úrovně",
@@ -4227,42 +4227,42 @@
     "Effects": {
       "All": {
         "Hint": "Zachová všechny efekty bez ohledu na ostatní nastavení efektů.",
-        "Label": "Všechny efekty"
+        "Label": "Všechny efekty?"
       },
       "Background": {
-        "Label": "Efekty zázemí"
+        "Label": "Efekty zázemí?"
       },
       "Class": {
-        "Label": "Efekty povolání"
+        "Label": "Efekty povolání?"
       },
       "Equipment": {
-        "Label": "Efekty vybavení"
+        "Label": "Efekty vybavení?"
       },
       "Feature": {
-        "Label": "Efekty schopností"
+        "Label": "Efekty schopností?"
       },
       "Origin": {
         "Hint": "Zachová jakékoli efekty vytvořené přímo na tomto aktérovi.",
-        "Label": "Tento aktér"
+        "Label": "Na tomto aktérovi?"
       },
       "OtherOrigin": {
-        "Hint": "Zachovat jakékoli efekty uvalené jiným aktérem.",
-        "Label": "Ostatní aktéři"
+        "Hint": "Zachová jakékoli efekty uvalené jinými aktéry.",
+        "Label": "Ostatních aktérů?"
       },
       "Spell": {
-        "Label": "Efekty kouzel"
+        "Label": "Efekty kouzel?"
       }
     },
     "FIELDS": {
       "effects": {
-        "label": "Aktivní efekty"
+        "label": "Aktivní efekty?"
       },
       "keep": {
         "hint": "Tyto detaily budou zachovány ze zdrojové postavy.",
         "label": "Zachovat"
       },
       "merge": {
-        "hint": "Sloučit tyto zdatnosti – zachovat tu s vyšší opravou.",
+        "hint": "Sloučení zdatností (zachová tu s vyšší opravou).",
         "label": "Sloučit"
       },
       "other": {
@@ -4270,62 +4270,62 @@
       },
       "tempFormula": {
         "hint": "Vzorec pro dočasné BV, které budou po tranformaci přidány.",
-        "label": "Vzorec pro dočasné BV"
+        "label": "Vzorec dočasných BV"
       },
       "transformTokens": {
-        "label": "Transformovat tokeny"
+        "label": "Transformovat tokeny?"
       }
     },
     "Keep": {
       "Biography": {
-        "Label": "Biografie"
+        "Label": "Biografii?"
       },
       "CreatureType": {
-        "Label": "Typ bytosti"
+        "Label": "Typ bytosti?"
       },
       "Equipment": {
-        "Label": "Vybavení"
+        "Label": "Vybavení?"
       },
       "Features": {
-        "Label": "Schopnosti"
+        "Label": "Schopnosti?"
       },
       "Health": {
-        "Label": "Body výdrže a kostky zásahu"
+        "Label": "BV a kostky obnovy"
       },
       "Mental": {
         "Hint": "Zachová Inteligenci, Moudrost a Charisma.",
-        "Label": "Duševní vlastnosti"
+        "Label": "Duševní vlastnosti?"
       },
       "Physical": {
         "Hint": "Zachová Sílu, Obratnost a Odolnost.",
-        "Label": "Tělesné vlastnosti"
+        "Label": "Tělesné vlastnosti?"
       },
       "Proficiency": {
-        "Label": "Zdatnostní bonus"
+        "Label": "Zdatnostní bonus?"
       },
       "Saves": {
-        "Label": "Zdatnosti v záchranných hodech"
+        "Label": "Zdatnosti v záchranách?"
       },
       "Self": {
-        "Hint": "Změnit pouze portrét a vzhled tokenu, ostatní nastavení budou ignorována.",
-        "Label": "Vzhled"
+        "Hint": "Změní se jen portrét a vzhled tokenu, ostatní bude ignorováno.",
+        "Label": "Vzhled?"
       },
       "Skills": {
-        "Label": "Zdatnosti v dovednostech"
+        "Label": "Zdatnosti v dovednostech?"
       },
       "Spells": {
         "Label": "Kouzla"
       },
       "Vision": {
-        "Label": "Vidění"
+        "Label": "Typy vidění:"
       }
     },
     "Merge": {
       "Saves": {
-        "Label": "Zdatnosti v záchranách"
+        "Label": "Zdatnosti v záchranách?"
       },
       "Skills": {
-        "Label": "Zdatnosti v dovednostech"
+        "Label": "Zdatnosti v dovednostech?"
       }
     }
   },
@@ -5060,11 +5060,11 @@
   },
   "PERMISSIONS": {
     "AllowSummoning": {
-      "Hint": "Povolit hráčům používat přivolávací schopnosti k přivolání aktérů. Aby to fungovalo, musí mít hráči i základní oprávnění vytvářet tokeny.",
+      "Hint": "Povolí hráčům používat přivolávací schopnosti k přivolání aktérů. Aby to fungovalo, musí mít hráči i základní oprávnění vytvářet tokeny.",
       "Name": "Povolit přivolávání?"
     },
     "AllowTransformation": {
-      "Hint": "Povolit hráčům transformovat své vlastněné postavy. Aby to fungovalo, musí mít hráči také základní oprávnění vytvářet aktéry.",
+      "Hint": "Povolení hráčům transformovat své vlastněné postavy. Aby to fungovalo, musí mít hráči také základní oprávnění vytvářet aktéry.",
       "Name": "Povolit transformace?"
     }
   },
