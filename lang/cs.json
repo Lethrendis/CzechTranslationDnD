@@ -75,13 +75,13 @@
   "SECTIONS": {
     "Bonuses": {
       "Label": "Bonusy vlastnosti {ability}",
-      "Hint": "Tyto bonusy se vztahují na ověření a záchrany provedené pomocí {ability}."
+      "Hint": "Tyto bonusy se vztahují na ověření a záchrany provedené pomocí vlastnosti {ability}."
     },
     "Global": {
       "Label": "Celkové bonusy",
       "Hint": "Tyto bonusy se vztahují na ověření a záchrany provedené bez jakékoliv vlastnosti."
     },
-    "Score": "Hodnota {ability}"
+    "Score": "Hodnota vlastnosti {ability}"
   }
 },
 
@@ -106,23 +106,23 @@
 "DND5E.AbilityScore": "Hodnota vlastnosti",
 "DND5E.AbilityScoreShort": "Hodnota",
 "DND5E.AbilityScorePl": "Hodnoty vlastností",
-"DND5E.AbilityScoreL": "Hodnota {ability}",
+"DND5E.AbilityScoreL": "Hodnota vlastnosti {ability}",
 "DND5E.AbilityScoreMax": "Maximální hodnota vlastnosti",
 "DND5E.AbilityScoreMaxShort": "Maximum",
 "DND5E.AbilityModifier": "Oprava vlastnosti",
 "DND5E.AbilityModifierShort": "Oprava",
-"DND5E.AbilityPromptText": "Jaký druh ověření {ability}?",
-"DND5E.AbilityPromptTitle": "Ověření {ability}",
+"DND5E.AbilityPromptText": "Jaký druh ověření vlastnosti {ability}?",
+"DND5E.AbilityPromptTitle": "Ověření vlastnosti {ability}",
 "DND5E.AbilityUseChargesLabel": "{value} nabití",
 "DND5E.AbilityUseConsumableLabel": "{max} za {per}",
 "DND5E.AbilityUseCast": "Seslat kouzlo",
 "DND5E.AbilityUseUse": "Použít vlastnost",
 "DND5E.AbilityUseConfig": "Nastavení použití",
 "DND5E.AbilityBonuses": "Bonusy vlastnosti",
-"DND5E.AbilityConfigure": "Nastavení {ability}",
-"DND5E.AbilityConfigureTitle": "Nastavení záchranných hodů a ověření {ability}",
-"DND5E.AbilitySaveConfigure": "Záchrany na {ability}",
-"DND5E.AbilityCheckConfigure": "Ověření {ability}",
+"DND5E.AbilityConfigure": "Nastavení vlastnosti {ability}",
+"DND5E.AbilityConfigureTitle": "Nastavení záchranných hodů a ověření vlastnosti {ability}",
+"DND5E.AbilitySaveConfigure": "Záchrana vlastností {ability}",
+"DND5E.AbilityCheckConfigure": "Ověření vlastnosti {ability}",
 "DND5E.AbilityCheckConfigurationHint": "Nastaví bonusy k ověřením.",
 "DND5E.AbilityConfigurationHint": "Nastavení vlastností záchranných hodů, bonusů záchranných hodů a bonusů ověření.",
 "DND5E.AbilityCheckBonus": "Bonus k ověření",
@@ -289,8 +289,8 @@
   }
 },
 
-"DND5E.ActorWarningInvalidItem": "K {actorType} nelze přidat položky {itemType}.",
-"DND5E.ActorWarningSingleton": "K {actorType} lze přidat pouze jedinou položku {itemType}.",
+"DND5E.ActorWarningInvalidItem": "Aktorovi typu {actorType} nelze přidat položky {itemType}.",
+"DND5E.ActorWarningSingleton": "Aktorovi typu {actorType} lze přidat pouze jedinou položku {itemType}.",
 "DND5E.ActiveEffectOverrideWarning": "Tato hodnota je modifikována aktivním efektem a nelze ji upravit. Deaktivuj efekt, aby ji šlo upravit.",
 "DND5E.Add": "Přidat",
 "DND5E.AdditionalControls": "Další ovládací prvky",
@@ -336,8 +336,8 @@
     },
     "Hint": "Umožní hráči zvýšit jednu či více hodnot vlastností nebo si vybrat volitelnou odbornost.",
     "Journal": {
-      "DescriptionLegacy": "<p>Když dosáhneš {firstLevelOrdinal} úrovně a následně {otherLevelsOrdinal} úrovně, můžeš svýšit jednu hodnotu vlastnosti dle tvého výběru o 2, nebo dvě hodnoty dle tvého výběru o 1. Jako obvykle nemůžeš užitím této odbornosti zvýšit hodnotu vlastnosti nad {maxAbilityScore}.</p><p>Užitím volitelného pravidla o odbornostech nemusíš použít pouze tuto odbornost, ale můžeš si místo ní vybrat i jinou odbornost dle svého výběru.</p>",
-      "DescriptionModern": "<p>Získal/a jsi odbornost ´Zvýšení hodnot vlastností´, případně jinou odbornost, jejíž předpoklady splňuješ. Znovu tuto odbornost pro {class} získáš na {otherLevels}. úrovni.</p>",
+      "DescriptionLegacy": "<p>Když dosáhneš {firstLevelOrdinal}. úrovně a následně {otherLevelsOrdinal}. úrovně, můžeš svýšit jednu hodnotu vlastnosti dle tvého výběru o 2, nebo dvě hodnoty dle tvého výběru o 1. Jako obvykle nemůžeš užitím této odbornosti zvýšit hodnotu vlastnosti nad {maxAbilityScore}.</p><p>Užitím volitelného pravidla o odbornostech nemusíš použít pouze tuto odbornost, ale můžeš si místo ní vybrat i jinou odbornost dle svého výběru.</p>",
+      "DescriptionModern": "<p>Získal/a jsi odbornost ´Zvýšení hodnot vlastností´, případně jinou, jejíž předpoklady splňuješ. Znovu tuto odbornost pro povolání {class} získáš na {otherLevels}. úrovni.</p>",
       "Name": "Zvýšení hodnost vlastností"
         },
     "LockedHint": "Hodnoty nelze měnit, pokud je vybrána odbornost.",
@@ -676,7 +676,7 @@
 "DND5E.AdvancementConfigurationActionEnable": "Povolit nastavování",
 "DND5E.AdvancementConfigurationModeDisabled": "Nastavování zakázána",
 "DND5E.AdvancementConfigurationModeEnabled": "Nastavování povolena",
-"DND5E.AdvancementConfigureTitle": "Nastavení postupu {item}.",
+"DND5E.AdvancementConfigureTitle": "Nastavení postupu položky {item}.",
 "DND5E.AdvancementConfigureAllowDrops": "Povolit přetahování",
 "DND5E.AdvancementConfigureAllowDropsHint": "Smějí hráči přetahovat do tohoto postupu vlastní volby?",
 "DND5E.AdvancementConfigureDropAreaHint": "Pokládej položky sem, aby se přidaly do seznamu, ze kterého si hráč může vybírat.",
@@ -690,7 +690,7 @@
 "DND5E.AdvancementFlowDropAreaHint": "Pro potvrzení výběru položky ji polož sem.",
 "DND5E.AdvancementHint": "Nápověda.",
 "DND5E.AdvancementItemTypeInvalidWarning": "Položka typu {type} nemůže být v rámci tohoto postupu přidána.",
-"DND5E.AdvancementLevelHeader": "Úroveň {level}",
+"DND5E.AdvancementLevelHeader": "Úroveň {level}.",
 "DND5E.AdvancementLevelAnyHeader": "Jakákoliv úroveň",
 "DND5E.AdvancementLevelNoneHeader": "Žádná úroveň",
 "DND5E.AdvancementLevelDownConfirmationMessage": "Snížení úrovně tohoto povolání také zruší všechny volby postupu, které byly v rámci něj učiněny. Tyto změny nebudou z tvé postavy odstraněny, dokud zůstane níže uvedené zaškrtávací políčko zatržené.",
@@ -825,7 +825,7 @@
   },
   "Formatted": {
     "2014": "Útok {type} {classification}",
-    "2024": "Hod na útok {type}"
+    "2024": "Útok {type}"
   },
   "Mode": {
     "Label": "Režim útoku",
@@ -1573,7 +1573,7 @@
     "MissingItem": "Položka, která má být spotřebována aktivitou {activity} položky {item}, nebyla nalezena.",
     "MissingSpellSlot": "Žádné pozice kouzel {level}. stupně nejsou k dispozici.",
     "None": "{type} není k dispozici ke spotřebě, požadováno {cost}.",
-    "NotEnough": "Není dostatek {type} ke spotřebě, požadováno {cost} a pouze {available} k dispozici.",
+    "NotEnough": "Není dostatek {type} ke spotřebě, požadováno {cost} a je pouze {available} k dispozici.",
     "WillDestroy": "Spotřebováním položky {item} se vyčerpá její poslední použití, bude tak zničena."
   }
 },
@@ -3370,10 +3370,10 @@
 "DND5E.SheetModePlay": "Hrát",
 "DND5E.SavingThrow": "Záchranný hod",
 "DND5E.SavingThrowDC": "SO {dc} {ability} záchrany",
-"DND5E.SavingThrowRoll": "Hodit záchranu na {ability}",
+"DND5E.SavingThrowRoll": "Hodit záchranu vlastností {ability}",
 "DND5E.SavingThrowShort": "Záchrana",
 "DND5E.SaveDC": "SO {dc} {ability}",
-"DND5E.SavePromptTitle": "Záchranný hod na {ability}",
+"DND5E.SavePromptTitle": "Záchranný hod vlastností {ability}",
 "DND5E.ScalingFormula": "Vzorec škálování",
 "DND5E.ScalingMode": "Režim škálování",
 "DND5E.ScalingValue": "Hodnota škálování",
@@ -3434,8 +3434,8 @@
 "DND5E.SkillSlt": "Čachry",
 "DND5E.SkillSte": "Nenápadnost",
 "DND5E.SkillSur": "Přežití",
-"DND5E.SkillPromptTitle": "Ověření {ability} ({skill})",
-"DND5E.SkillConfigureTitle": "Nastavení {skill}",
+"DND5E.SkillPromptTitle": "Ověření vlastnosti {ability} ({skill})",
+"DND5E.SkillConfigureTitle": "Nastavení dovednosti {skill}",
 "DND5E.SkillConfigure": "Nastavit dovednost",
 "DND5E.SkillsConfig": "Nastavení dovedností",
 "DND5E.SkillBonuses": "Bonusy dovedností",
@@ -3443,10 +3443,10 @@
 "DND5E.SkillBonusPassive": "Pasivní bonus",
 "DND5E.SkillConfigurationHint": "Nastaví zdatnosti a bonusy k dovednostem.",
 "DND5E.SkillGlobalBonusCheckHint": "Tento bonus se vztahuje na všechny ověření dovedností provedené tímto aktérem.",
-"DND5E.SkillModifierHint": "Oprava {skill}.",
+"DND5E.SkillModifierHint": "Oprava dovednosti {skill}.",
 "DND5E.SkillPassiveHint": "Pasivní {skill}.",
 "DND5E.SkillPassiveSpecificHint": "Pasivní {ability} ({skill}).",
-"DND5E.SkillPassiveScore": "Hodnota pasivní {skill}",
+"DND5E.SkillPassiveScore": "Hodnota pasivní dovednosti {skill}",
 "DND5E.SkillPassives": "Pasivní dovednosti",
 "DND5E.Skin": "Kůže",
 "DND5E.Skip": "Přeskočit",
