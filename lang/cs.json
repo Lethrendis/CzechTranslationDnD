@@ -1037,8 +1037,8 @@
         "hint": "Složky kouzla a značky, které se při seslání ignorují."
       },
       "spellbook": {
-        "label": "Zobrazit v knize kouzel",
-        "hint": "Zobrazí kouzlo v záložce Kniha kouzel v deníku postavy."
+        "label": "Zobrazit v Kouzlech",
+        "hint": "Zobrazí kouzlo v záložce Kouzla v deníku postavy."
       },
       "uuid": {
         "label": "Seslat kouzlo"
@@ -3588,7 +3588,7 @@
 "DND5E.SpellTarget": "Cíl kouzla",
 "DND5E.SpellUnprepared": "Nepřipraveno",
 "DND5E.SpellUsage": "Použití kouzla",
-"DND5E.Spellbook": "Kniha kouzel",
+"DND5E.Spellbook": "Kouzla",
 "DND5E.Spent": "Utraceno",
 "DND5E.StartingEquipment": {
   "Title": "Počáteční vybavení",
