@@ -1452,8 +1452,8 @@
         }
       },
       "spellSlot": {
-        "label": "Spotřebovat pozici kouzla",
-        "hint": "Měla by tato aktivita spotřebovat pozici pro toto kouzlo?"
+        "label": "Spotřebovat pozici kouzla?",
+        "hint": "Po zaškrtnutí bude tato aktivita spotřebovávat pozice kouzla."
       },
       "targets": {
         "label": "Cíle ke spotřebování",
@@ -1578,7 +1578,7 @@
   }
 },
 
-"DND5E.Consumed": "Spotřebováno",
+"DND5E.Consumed": "Spotřebovat?",
 "DND5E.Copy": "Kopírovat text",
 "DND5E.Copied": "Zkopírováno {value}",
 "DND5E.Cover": "Kryt",
@@ -3551,8 +3551,8 @@
 "DND5E.SpellPrepAtWill": "Libovolně",
 "DND5E.SpellPrepInnate": "Vrozené sesílání kouzel",
 "DND5E.SpellPrepRitual": "Pouze rituál",
-"DND5E.SpellPrepPrepared": "Připraveno",
-"DND5E.SpellPrepAlways": "Vždy připraveno",
+"DND5E.SpellPrepPrepared": "Připravené",
+"DND5E.SpellPrepAlways": "Vždy připravené",
 "DND5E.SpellPreparation": {
   "Label": "Příprava kouzel",
   "Formula": "Vzorec přípravy",
@@ -3810,8 +3810,8 @@
         }
       },
       "override": {
-        "label": "Přepsat cíl",
-        "hint": "Při používání této aktivity budou použity tyto hodnoty cíle namísto hodnot položky."
+        "label": "Přepsat cíl?",
+        "hint": "Po zaškrtnutí budou při používání této aktivity použity tyto hodnoty cíle namísto hodnot položky."
       },
       "prompt": {
         "label": "Používat měřící šablonu?",
@@ -4614,19 +4614,19 @@
       "label": "Hod na pomocnou aktivitu",
       "formula": {
         "label": "Vzorec hodu",
-        "hint": "Vzorec pro libovolný hod."
+        "hint": "Vzorec libovolného hodu."
       },
       "name": {
         "label": "Popisek hodu",
         "hint": "Název zobrazený u tlačítka hodu."
       },
       "prompt": {
-        "label": "Výzva k hodu na pomocnou aktivitu",
-        "hint": "Má se při hodu zobrazit dialog pro nastavení hodu?"
+        "label": "Vyzvat k hodu u pomocné aktivity?",
+        "hint": "Po zaškrtnutí se bude zobrazovat dialog pro nastavení hodu."
       },
       "visible": {
-        "label": "Viditelné pro všechny",
-        "hint": "Má být tlačítko hodu viditelné pro všechny hráče?"
+        "label": "Viditelné pro všechny?",
+        "hint": "Po zaškrtnutí bude tlačítko hodu viditelné pro všechny hráče."
       }
     }
   }
