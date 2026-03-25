@@ -1,5 +1,5 @@
 Changelog
 
-Verze 1.1.0:
-První verze modulu.
-Kompletní překlad DnD 5.0.4.
+Verze 1.2.0:
+Třetí verze modulu.
+Kompletní překlad DnD 5.2.5.
